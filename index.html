@@ -19,27 +19,46 @@
     <script type="text/javascript">
       $('form').jsonForm({
         schema: {
-  "type": "object",
-  "properties": {
-    "name": {
-      "title": "Name",
-      "description": "Nickname allowed",
-      "type": "string"
-    },
-    "gender": {
-      "title": "Gender",
-      "description": "Your gender",
-      "type": "string",
-      "enum": [
-        "male",
-        "female",
-        "alien"
-      ]
+    type: "object",
+    properties: {
+      displaytype: {
+        type: 'string',
+        title: 'Type',
+        enum: ["Table", "Figure", "Listing"]
+      },
+      number: {
+        type: 'string',
+        title: 'Table Number',
+        description: "e.g. 13.01.01, etc."
+      },
+      tflid: {
+        type: 'string',
+        title: "TFL.ID",
+        description: "Unique TFL identifier, e.g. t_dem1, f_eDISH, etc."
+      },
+      population: {
+        name: "Population",
+        description: "Population as defined in SAP",
+        type: "string",
+        enum: ["Safety", "Efficacy", "Intent to Treat", "All Subjects", "Other"]
+      },
+      titles: {
+        type: "array",
+        items: {
+          type: "object",
+          title: "Title",
+          properties: {
+            heading: {
+              type: "string",
+              title: "Heading",
+              required: true
+            }
+          }
+        }
+      }
     }
-  }
 }
-
-        },
+        ,
         onSubmit: function (errors, values) {
           if (errors) {
             $('#res').html('<p>I beg your pardon?</p>');

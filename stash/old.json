@@ -28,7 +28,7 @@ schema: {
         type: "array",
         items: {
           type: "object",
-          title: "Title"
+          title: "Title",
           properties: {
             heading: {
               type: "string",
@@ -39,5 +39,5 @@ schema: {
         }
       }
     }
-
+}
 
