@@ -11,16 +11,60 @@
 </head>
  
 <body>
+    <main role="main" class="container">
+        <h1>TFL Title and Footnote editor</h1>
+        <form></form>
+        <div id="res" class="alert"></div>
+        <script type="text/javascript" src="deps/jquery.min.js"></script>
+        <script type="text/javascript" src="deps/underscore.js"></script>
+        <script type="text/javascript" src="deps/opt/jsv.js"></script>
+        <script type="text/javascript" src="lib/jsonform.js"></script>
+    
     <h1>Welcome!</h1>
  
-    <h2>Heading 2</h2>
-    <p>The links below will work either when you click them (navigation within the iframe, check the page source), or if you append the component ('another_page', 'redirect_test_fail', etc) to the URL after you did (*) above.
-        <ul>
-            <li>A call to flask's url_for('another_page') returns <a href="{{ url_for('another_page') }}">{{ url_for('another_page') }}</a> (which has the 'r/notebookSession' component).</li>
-            <li>A link to a redirect 'redirect_test' which then goes to url_for('another_page'): <a href="{{ url_for('redirect_test') }}">{{ url_for('redirect_test') }}</a></li>
-        </ul>
-    </p>
+    <script type="text/javascript">
+        $('form').jsonForm({
   
+    "schema": {
+      "displays": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "title": "TFLID",
+          "default": "XXX"
+        }
+      }
+    },
+    "form": [
+      {
+        "type": "tabarray",
+        "items": [
+          {
+            "type": "section",
+            "legend": "{{idx}}. {{value}}",
+            "items": [
+              {
+                "key": "displays[]",
+                "valueInLegend": true
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  
+          ,
+          onSubmit: function (errors, values) {
+            if (errors) {
+              $('#res').html('<p>I beg your pardon?</p>');
+            } else {
+              $('#res').html('<p>Ok.</p>');
+            }
+          }
+        });
+      </script>
+  
+    
     <div id="histogram"></div>
  
     <script>
@@ -39,6 +83,7 @@
             })
         });
     </script>
+    </main>
 </body>
  
 </html>
