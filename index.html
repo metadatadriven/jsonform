@@ -30,7 +30,7 @@
             description: "e.g. 13.01.01, etc."
           },
           tflid: {
-            type: string,
+            type: 'string',
             title: "TFL.ID",
             description: "Unique TFL identifier, e.g. t_dem1, f_eDISH, etc."
           },
@@ -45,9 +45,7 @@
           if (errors) {
             $('#res').html('<p>I beg your pardon?</p>');
           } else {
-            $('#res').html('<p>Display: ' + values.displaytype + '.' +
-              (values.tflid ? '<br/>Number ' + values.number + '.' : '') +
-              '</p>');
+            $('#res').html('<p>Ok.</p>');
           }
         }
       });
