@@ -18,45 +18,32 @@
     <script type="text/javascript" src="lib/jsonform.js"></script>
     <script type="text/javascript">
       $('form').jsonForm({
-        schema: {
-          type: "object",
-          properties: {
-            displaytype: {
-              type: 'string',
-              title: 'Type',
-              enum: ["Table", "Figure", "Listing"]
-            },
-            number: {
-              type: 'string',
-              title: 'Table Number',
-              description: "e.g. 13.01.01, etc."
-            },
-            tflid: {
-              type: 'string',
-              title: "TFL.ID",
-              description: "Unique TFL identifier, e.g. t_dem1, f_eDISH, etc."
-            },
-            population: {
-              name: "Population",
-              description: "Population as defined in SAP",
-              type: "string",
-              enum: ["Safety", "Efficacy", "Intent to Treat", "All Subjects", "Other"]
-            },
-            titles: {
-              type: "array",
-              items: {
-                type: "object",
-                title: "Title"
-                properties: {
-                  heading: {
-                    type: "string",
-                    title: "Heading",
-                    required: true
-                  }
-                }
-              }
-            }
+        "schema": {
+    "friends": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "title": "Friend",
+        "properties": {
+          "nick": {
+            "type": "string",
+            "title": "Nickname",
+            "required": true
+          },
+          "gender": {
+            "type": "string",
+            "title": "Gender",
+            "enum": [ "male", "female", "alien" ]
+          },
+          "age": {
+            "type": "integer",
+            "title": "Age"
           }
+        }
+      }
+    }
+  }
+
         },
         onSubmit: function (errors, values) {
           if (errors) {
