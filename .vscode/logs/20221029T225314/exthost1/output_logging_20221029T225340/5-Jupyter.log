@@ -1,0 +1,7 @@
+Jupyter Extension Version: 2021.11.1001552333.
+Python Extension Verison: 2021.12.1559732655.
+Info 23:39:33: Experimentation service retrieved: [object Object]
+Info 23:39:33: ZMQ install verified.
+Info 23:39:35: Experiment status for python is {"enabled":true,"optInto":[],"optOutFrom":[]}
+Info 23:39:36: Process Execution: > /opt/conda/bin/python -m pip list
+> /opt/conda/bin/python -m pip list

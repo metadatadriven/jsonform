@@ -14,3 +14,4 @@
 [2022-10-29 22:53:43.510] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
 [2022-10-29 22:53:43.605] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
 [2022-10-29 22:53:43.608] [exthost] [info] Eager extensions activated
+[2022-10-29 23:39:32.627] [exthost] [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onLanguage:python'
