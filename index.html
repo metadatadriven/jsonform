@@ -9,7 +9,7 @@
 
 <body>
   <main role="main" class="container">
-    <h1>Getting started with JSON Form</h1>
+    <h1>TFL Title and Footnote editor</h1>
     <form></form>
     <div id="res" class="alert"></div>
     <script type="text/javascript" src="deps/jquery.min.js"></script>
@@ -19,22 +19,34 @@
     <script type="text/javascript">
       $('form').jsonForm({
         schema: {
-          name: {
+          displaytype: {
             type: 'string',
-            title: 'Name',
-            required: true
+            title: 'Type',
+            enum: ["Table", "Figure", "Listing"]
           },
-          age: {
-            type: 'number',
-            title: 'Age'
+          number: {
+            type: 'string',
+            title: 'Table Number',
+            description: "e.g. 13.01.01, etc."
+          },
+          tflid: {
+            type: string,
+            title: "TFL.ID",
+            description: "Unique TFL identifier, e.g. t_dem1, f_eDISH, etc."
+          },
+          population: {
+            name: "Population",
+            description: "Population as defined in SAP",
+            type: "string",
+            enum: ["Safety", "Efficacy", "Intent to Treat", "All Subjects", "Other"]
           }
         },
         onSubmit: function (errors, values) {
           if (errors) {
             $('#res').html('<p>I beg your pardon?</p>');
           } else {
-            $('#res').html('<p>Hello ' + values.name + '.' +
-              (values.age ? '<br/>You are ' + values.age + '.' : '') +
+            $('#res').html('<p>Display: ' + values.displaytype + '.' +
+              (values.tflid ? '<br/>Number ' + values.number + '.' : '') +
               '</p>');
           }
         }
