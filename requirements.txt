@@ -18,8 +18,8 @@
 flask>=1.0
  
 # Requirements for the Python/Dash app publishing example.
-dash~=0.21.0
-dash-core-components~=0.21.1
-dash-html-components~=0.9.0
-dash-renderer~=0.12.1
-dash-table-experiments~=0.6.0
+#dash~=0.21.0
+#dash-core-components~=0.21.1
+#dash-html-components~=0.9.0
+#dash-renderer~=0.12.1
+#dash-table-experiments~=0.6.0
