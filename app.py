@@ -55,3 +55,10 @@ def another_page():
 def random(n = 100):
   random_numbers = list(np.random.random(n))
   return json.dumps(random_numbers)
+
+# Submit changes to current display
+@app.route('/submit', methods = ['POST'])
+def submit():
+    # email = request.form['email']
+    # print("The email address is '" + email + "'")
+    return redirect('/')

@@ -15,3 +15,9 @@
 [2022-10-30 09:29:26.801] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
 [2022-10-30 09:33:55.647] [exthost] [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:css'
 [2022-10-30 09:34:06.492] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+[2022-10-30 09:38:15.875] [exthost] [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onLanguage:python'
+[2022-10-30 09:39:13.962] [exthost] [error] [ms-python.python] provider FAILED
+[2022-10-30 09:39:13.962] [exthost] [error] TypeError: Cannot read property 'length' of undefined
+	at /home/ubuntu/.local/share/code-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:67:257359
+	at p (/home/ubuntu/.local/share/code-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:67:262355)
+	at async z.provideCompletionItems (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:101392)
