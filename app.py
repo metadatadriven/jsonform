@@ -73,28 +73,10 @@ def display(tflid):
   return flask.render_template("index.html", jsonschema=json.dumps(schemavalue), tflid=tflid, displays=displays)
 
 
-# Sample redirect using url_for
-@app.route('/redirect_test')
-def redirect_test():
-  return redirect( url_for('another_page') )
- 
-# Sample return string instead of using template file
-@app.route('/another_page')
-def another_page():
-  msg = "You made it with redirect( url_for('another_page') )." + \
-        "A call to flask's url_for('index_page') returns " + url_for('index_page') + "."
-  return msg
- 
-@app.route("/random")
-@app.route("/random/<int:n>")
-def random(n = 100):
-  random_numbers = list(np.random.random(n))
-  return json.dumps(random_numbers)
-
 # Submit changes to current display
 # ----------------------------------------------------------------
 @app.route('/submit', methods = ['POST'])
 def submit():
-    # email = request.form['email']
-    # print("The email address is '" + email + "'")
-    return redirect('/')
+    # update the in-memory displays with this display
+    displays[request.form.tflid] = request.form.to_dict()
+    return redirect('/display/'+request.form.tflid)
