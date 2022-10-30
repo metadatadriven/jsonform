@@ -44,9 +44,11 @@
         <!-- DISPLAY MENU -->
         <ul class="nav nav-sidebar">
           {% for display in displays %}
-          <li class="active"><a href="#">Display1 <span class="sr-only">(current)</span></a></li>
-          <li {% 'class="active"' if tflid is defined and tflid == display['tflid'] %} >
-            <a href="{{ url_for('display', tflid=display['tflid']) }}">{{display['tflid']}}</a>
+          <li class="active"><a href="#">Display1 </a></li>
+          <li {% if tflid == display['tflid'] %} class="active" {% endif %} >
+            <a href="{{ url_for('display', tflid=display['tflid']) }}">{{display['tflid']}}
+              {% if tflid == display['tflid'] %} <span class="sr-only">(current)</span> {% endif %}
+            </a>
           </li>
           {% endfor %}
         </ul>
