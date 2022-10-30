@@ -51,7 +51,8 @@
         <!-- DISPLAY EDITOR HERE-->
         <h1 class="page-header">TFL Title and Footnote editor</h1>
         <div class="col-xs-6 col-sm-3 placeholder">
-          <form id="jsonform"></form>
+          <!-- THIS IS WHERE THE JSON FORM IS INJECTED -->
+          <form id="jsonform" action="/submit" method="post"></form>
           <div id="res" class="alert"></div>
           <script type="text/javascript" src="{{url_for('static', filename='jquery.min.js')}}"></script>
           <script type="text/javascript" src="{{url_for('static', filename='underscore.js')}}"></script>
