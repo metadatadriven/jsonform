@@ -39,3 +39,4 @@ Error: Module 'autopep8' not installed.
     at w.queue (https://sce-workshop.domino-eval.com/stuart/jsf/r/notebookSession/635e3f9207304b7e72e5877a/static/out/vs/workbench/workbench.web.api.js:77:15610)
     at y.writeConfiguration (https://sce-workshop.domino-eval.com/stuart/jsf/r/notebookSession/635e3f9207304b7e72e5877a/static/out/vs/workbench/workbench.web.api.js:1913:9237)
     at k.writeConfigurationValue (https://sce-workshop.domino-eval.com/stuart/jsf/r/notebookSession/635e3f9207304b7e72e5877a/static/out/vs/workbench/workbench.web.api.js:1913:41991)
+> conda info --json
