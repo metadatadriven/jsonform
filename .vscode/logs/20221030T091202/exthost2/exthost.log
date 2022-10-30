@@ -22112,3 +22112,1823 @@
 	at onwrite (internal/streams/writable.js:446:7)
 	at InflateRaw.afterTransform (internal/streams/transform.js:103:3)
 	at Zlib.processCallback (zlib.js:607:8)
+[2022-10-30 14:50:02.290] [exthost] [error] [ms-toolsai.jupyter] provider FAILED
+[2022-10-30 14:50:02.290] [exthost] [error] Error: Unable to retrieve document from URI 'file:///mnt/code/app.py'
+	at I.getDocument (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:70576)
+	at c.provideHover (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:90836)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:114943
+	at xe._withAdapter (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:111762)
+	at xe.$provideHover (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:114921)
+	at t._doInvokeHandler (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:13802)
+	at t._invokeHandler (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:13486)
+	at t._receiveRequest (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:12097)
+	at t._receiveOneMessage (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:10826)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:8922
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at P.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:15967)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:114:30660
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at P.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:15967)
+	at g._receiveMessage (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:21237)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:18115
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at b.acceptChunk (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:13328)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:12676
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:114:19664
+	at afterWrite (internal/streams/writable.js:466:5)
+	at onwrite (internal/streams/writable.js:446:7)
+	at InflateRaw.afterTransform (internal/streams/transform.js:103:3)
+	at Zlib.processCallback (zlib.js:607:8)
+[2022-10-30 14:50:02.290] [exthost] [error] [ms-python.python] provider FAILED
+[2022-10-30 14:50:02.290] [exthost] [error] Error: Unable to retrieve document from URI 'file:///mnt/code/app.py'
+	at I.getDocument (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:70576)
+	at c.provideHover (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:90836)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:114943
+	at xe._withAdapter (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:111762)
+	at xe.$provideHover (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:114921)
+	at t._doInvokeHandler (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:13802)
+	at t._invokeHandler (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:13486)
+	at t._receiveRequest (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:12097)
+	at t._receiveOneMessage (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:10826)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:8922
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at P.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:15967)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:114:30660
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at P.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:15967)
+	at g._receiveMessage (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:21237)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:18115
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at b.acceptChunk (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:13328)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:12676
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:114:19664
+	at afterWrite (internal/streams/writable.js:466:5)
+	at onwrite (internal/streams/writable.js:446:7)
+	at InflateRaw.afterTransform (internal/streams/transform.js:103:3)
+	at Zlib.processCallback (zlib.js:607:8)
+[2022-10-30 14:50:07.826] [exthost] [error] [ms-toolsai.jupyter] provider FAILED
+[2022-10-30 14:50:07.826] [exthost] [error] Error: Unable to retrieve document from URI 'file:///mnt/code/app.py'
+	at I.getDocument (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:70576)
+	at c.provideHover (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:90836)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:114943
+	at xe._withAdapter (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:111762)
+	at xe.$provideHover (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:114921)
+	at t._doInvokeHandler (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:13802)
+	at t._invokeHandler (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:13486)
+	at t._receiveRequest (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:12097)
+	at t._receiveOneMessage (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:10826)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:8922
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at P.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:15967)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:114:30660
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at P.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:15967)
+	at g._receiveMessage (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:21237)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:18115
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at b.acceptChunk (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:13328)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:12676
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:114:19664
+	at afterWrite (internal/streams/writable.js:466:5)
+	at onwrite (internal/streams/writable.js:446:7)
+	at InflateRaw.afterTransform (internal/streams/transform.js:103:3)
+	at Zlib.processCallback (zlib.js:607:8)
+[2022-10-30 14:50:07.826] [exthost] [error] [ms-python.python] provider FAILED
+[2022-10-30 14:50:07.826] [exthost] [error] Error: Unable to retrieve document from URI 'file:///mnt/code/app.py'
+	at I.getDocument (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:70576)
+	at c.provideHover (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:90836)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:114943
+	at xe._withAdapter (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:111762)
+	at xe.$provideHover (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:114921)
+	at t._doInvokeHandler (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:13802)
+	at t._invokeHandler (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:13486)
+	at t._receiveRequest (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:12097)
+	at t._receiveOneMessage (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:10826)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:8922
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at P.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:15967)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:114:30660
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at P.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:15967)
+	at g._receiveMessage (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:21237)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:18115
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at b.acceptChunk (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:13328)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:12676
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:114:19664
+	at afterWrite (internal/streams/writable.js:466:5)
+	at onwrite (internal/streams/writable.js:446:7)
+	at InflateRaw.afterTransform (internal/streams/transform.js:103:3)
+	at Zlib.processCallback (zlib.js:607:8)
+[2022-10-30 14:50:10.077] [exthost] [error] [ms-toolsai.jupyter] provider FAILED
+[2022-10-30 14:50:10.077] [exthost] [error] Error: Unable to retrieve document from URI 'file:///mnt/code/app.py'
+	at I.getDocument (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:70576)
+	at c.provideHover (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:90836)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:114943
+	at xe._withAdapter (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:111762)
+	at xe.$provideHover (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:114921)
+	at t._doInvokeHandler (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:13802)
+	at t._invokeHandler (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:13486)
+	at t._receiveRequest (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:12097)
+	at t._receiveOneMessage (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:10826)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:8922
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at P.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:15967)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:114:30660
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at P.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:15967)
+	at g._receiveMessage (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:21237)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:18115
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at b.acceptChunk (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:13328)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:12676
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:114:19664
+	at afterWrite (internal/streams/writable.js:466:5)
+	at onwrite (internal/streams/writable.js:446:7)
+	at InflateRaw.afterTransform (internal/streams/transform.js:103:3)
+	at Zlib.processCallback (zlib.js:607:8)
+[2022-10-30 14:50:10.077] [exthost] [error] [ms-python.python] provider FAILED
+[2022-10-30 14:50:10.078] [exthost] [error] Error: Unable to retrieve document from URI 'file:///mnt/code/app.py'
+	at I.getDocument (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:70576)
+	at c.provideHover (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:90836)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:114943
+	at xe._withAdapter (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:111762)
+	at xe.$provideHover (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:114921)
+	at t._doInvokeHandler (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:13802)
+	at t._invokeHandler (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:13486)
+	at t._receiveRequest (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:12097)
+	at t._receiveOneMessage (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:10826)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:8922
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at P.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:15967)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:114:30660
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at P.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:15967)
+	at g._receiveMessage (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:21237)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:18115
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at b.acceptChunk (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:13328)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:12676
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:114:19664
+	at afterWrite (internal/streams/writable.js:466:5)
+	at onwrite (internal/streams/writable.js:446:7)
+	at InflateRaw.afterTransform (internal/streams/transform.js:103:3)
+	at Zlib.processCallback (zlib.js:607:8)
+[2022-10-30 14:50:10.481] [exthost] [error] [ms-toolsai.jupyter] provider FAILED
+[2022-10-30 14:50:10.481] [exthost] [error] Error: Unable to retrieve document from URI 'file:///mnt/code/app.py'
+	at I.getDocument (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:70576)
+	at c.provideHover (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:90836)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:114943
+	at xe._withAdapter (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:111762)
+	at xe.$provideHover (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:114921)
+	at t._doInvokeHandler (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:13802)
+	at t._invokeHandler (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:13486)
+	at t._receiveRequest (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:12097)
+	at t._receiveOneMessage (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:10826)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:8922
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at P.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:15967)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:114:30660
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at P.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:15967)
+	at g._receiveMessage (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:21237)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:18115
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at b.acceptChunk (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:13328)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:12676
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:114:19664
+	at afterWrite (internal/streams/writable.js:466:5)
+	at onwrite (internal/streams/writable.js:446:7)
+	at InflateRaw.afterTransform (internal/streams/transform.js:103:3)
+	at Zlib.processCallback (zlib.js:607:8)
+[2022-10-30 14:50:10.481] [exthost] [error] [ms-python.python] provider FAILED
+[2022-10-30 14:50:10.482] [exthost] [error] Error: Unable to retrieve document from URI 'file:///mnt/code/app.py'
+	at I.getDocument (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:70576)
+	at c.provideHover (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:90836)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:114943
+	at xe._withAdapter (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:111762)
+	at xe.$provideHover (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:114921)
+	at t._doInvokeHandler (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:13802)
+	at t._invokeHandler (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:13486)
+	at t._receiveRequest (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:12097)
+	at t._receiveOneMessage (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:10826)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:8922
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at P.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:15967)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:114:30660
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at P.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:15967)
+	at g._receiveMessage (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:21237)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:18115
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at b.acceptChunk (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:13328)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:12676
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:114:19664
+	at afterWrite (internal/streams/writable.js:466:5)
+	at onwrite (internal/streams/writable.js:446:7)
+	at InflateRaw.afterTransform (internal/streams/transform.js:103:3)
+	at Zlib.processCallback (zlib.js:607:8)
+[2022-10-30 14:50:40.729] [exthost] [error] [ms-toolsai.jupyter] provider FAILED
+[2022-10-30 14:50:40.729] [exthost] [error] Error: Unable to retrieve document from URI 'file:///mnt/code/app.py'
+	at I.getDocument (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:70576)
+	at c.provideHover (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:90836)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:114943
+	at xe._withAdapter (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:111762)
+	at xe.$provideHover (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:114921)
+	at t._doInvokeHandler (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:13802)
+	at t._invokeHandler (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:13486)
+	at t._receiveRequest (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:12097)
+	at t._receiveOneMessage (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:10826)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:8922
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at P.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:15967)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:114:30660
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at P.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:15967)
+	at g._receiveMessage (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:21237)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:18115
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at b.acceptChunk (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:13328)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:12676
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:114:19664
+	at afterWrite (internal/streams/writable.js:466:5)
+	at onwrite (internal/streams/writable.js:446:7)
+	at InflateRaw.afterTransform (internal/streams/transform.js:103:3)
+	at Zlib.processCallback (zlib.js:607:8)
+[2022-10-30 14:50:40.729] [exthost] [error] [ms-python.python] provider FAILED
+[2022-10-30 14:50:40.729] [exthost] [error] Error: Unable to retrieve document from URI 'file:///mnt/code/app.py'
+	at I.getDocument (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:70576)
+	at c.provideHover (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:90836)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:114943
+	at xe._withAdapter (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:111762)
+	at xe.$provideHover (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:114921)
+	at t._doInvokeHandler (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:13802)
+	at t._invokeHandler (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:13486)
+	at t._receiveRequest (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:12097)
+	at t._receiveOneMessage (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:10826)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:8922
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at P.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:15967)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:114:30660
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at P.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:15967)
+	at g._receiveMessage (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:21237)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:18115
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at b.acceptChunk (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:13328)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:12676
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:114:19664
+	at afterWrite (internal/streams/writable.js:466:5)
+	at onwrite (internal/streams/writable.js:446:7)
+	at InflateRaw.afterTransform (internal/streams/transform.js:103:3)
+	at Zlib.processCallback (zlib.js:607:8)
+[2022-10-30 14:50:40.907] [exthost] [error] [ms-toolsai.jupyter] provider FAILED
+[2022-10-30 14:50:40.907] [exthost] [error] Error: Unable to retrieve document from URI 'file:///mnt/code/app.py'
+	at I.getDocument (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:70576)
+	at c.provideHover (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:90836)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:114943
+	at xe._withAdapter (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:111762)
+	at xe.$provideHover (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:114921)
+	at t._doInvokeHandler (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:13802)
+	at t._invokeHandler (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:13486)
+	at t._receiveRequest (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:12097)
+	at t._receiveOneMessage (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:10826)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:8922
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at P.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:15967)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:114:30660
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at P.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:15967)
+	at g._receiveMessage (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:21237)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:18115
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at b.acceptChunk (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:13328)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:12676
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:114:19664
+	at afterWrite (internal/streams/writable.js:466:5)
+	at onwrite (internal/streams/writable.js:446:7)
+	at InflateRaw.afterTransform (internal/streams/transform.js:103:3)
+	at Zlib.processCallback (zlib.js:607:8)
+[2022-10-30 14:50:40.907] [exthost] [error] [ms-python.python] provider FAILED
+[2022-10-30 14:50:40.907] [exthost] [error] Error: Unable to retrieve document from URI 'file:///mnt/code/app.py'
+	at I.getDocument (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:70576)
+	at c.provideHover (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:90836)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:114943
+	at xe._withAdapter (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:111762)
+	at xe.$provideHover (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:114921)
+	at t._doInvokeHandler (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:13802)
+	at t._invokeHandler (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:13486)
+	at t._receiveRequest (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:12097)
+	at t._receiveOneMessage (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:10826)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:8922
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at P.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:15967)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:114:30660
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at P.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:15967)
+	at g._receiveMessage (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:21237)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:18115
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at b.acceptChunk (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:13328)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:12676
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:114:19664
+	at afterWrite (internal/streams/writable.js:466:5)
+	at onwrite (internal/streams/writable.js:446:7)
+	at InflateRaw.afterTransform (internal/streams/transform.js:103:3)
+	at Zlib.processCallback (zlib.js:607:8)
+[2022-10-30 14:50:41.094] [exthost] [error] [ms-python.python] provider FAILED
+[2022-10-30 14:50:41.094] [exthost] [error] Error: Unable to retrieve document from URI 'file:///mnt/code/app.py'
+	at I.getDocument (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:70576)
+	at h.provideDocumentHighlights (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:91762)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:116186
+	at xe._withAdapter (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:111762)
+	at xe.$provideDocumentHighlights (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:116164)
+	at t._doInvokeHandler (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:13802)
+	at t._invokeHandler (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:13486)
+	at t._receiveRequest (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:12097)
+	at t._receiveOneMessage (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:10826)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:8922
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at P.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:15967)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:114:30660
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at P.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:15967)
+	at g._receiveMessage (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:21237)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:18115
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at b.acceptChunk (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:13328)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:12676
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:114:19664
+	at afterWrite (internal/streams/writable.js:466:5)
+	at onwrite (internal/streams/writable.js:446:7)
+	at InflateRaw.afterTransform (internal/streams/transform.js:103:3)
+	at Zlib.processCallback (zlib.js:607:8)
+[2022-10-30 14:50:41.467] [exthost] [error] [ms-toolsai.jupyter] provider FAILED
+[2022-10-30 14:50:41.467] [exthost] [error] Error: Unable to retrieve document from URI 'file:///mnt/code/app.py'
+	at I.getDocument (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:70576)
+	at s.provideCodeLenses (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:88800)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:113160
+	at xe._withAdapter (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:111762)
+	at xe.$provideCodeLenses (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:113136)
+	at t._doInvokeHandler (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:13802)
+	at t._invokeHandler (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:13486)
+	at t._receiveRequest (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:12097)
+	at t._receiveOneMessage (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:10826)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:8922
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at P.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:15967)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:114:30660
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at P.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:15967)
+	at g._receiveMessage (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:21237)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:18115
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at b.acceptChunk (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:13328)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:12676
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:114:19664
+	at afterWrite (internal/streams/writable.js:466:5)
+	at onwrite (internal/streams/writable.js:446:7)
+	at InflateRaw.afterTransform (internal/streams/transform.js:103:3)
+	at Zlib.processCallback (zlib.js:607:8)
+[2022-10-30 14:50:41.468] [exthost] [error] [vscode.merge-conflict] provider FAILED
+[2022-10-30 14:50:41.468] [exthost] [error] Error: Unable to retrieve document from URI 'file:///mnt/code/app.py'
+	at I.getDocument (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:70576)
+	at s.provideCodeLenses (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:88800)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:113160
+	at xe._withAdapter (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:111762)
+	at xe.$provideCodeLenses (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:113136)
+	at t._doInvokeHandler (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:13802)
+	at t._invokeHandler (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:13486)
+	at t._receiveRequest (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:12097)
+	at t._receiveOneMessage (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:10826)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:8922
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at P.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:15967)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:114:30660
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at P.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:15967)
+	at g._receiveMessage (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:21237)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:18115
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at b.acceptChunk (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:13328)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:12676
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:114:19664
+	at afterWrite (internal/streams/writable.js:466:5)
+	at onwrite (internal/streams/writable.js:446:7)
+	at InflateRaw.afterTransform (internal/streams/transform.js:103:3)
+	at Zlib.processCallback (zlib.js:607:8)
+[2022-10-30 14:50:41.468] [exthost] [error] [ms-python.python] provider FAILED
+[2022-10-30 14:50:41.469] [exthost] [error] Error: Unable to retrieve document from URI 'file:///mnt/code/app.py'
+	at I.getDocument (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:70576)
+	at s.provideCodeLenses (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:88800)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:113160
+	at xe._withAdapter (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:111762)
+	at xe.$provideCodeLenses (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:113136)
+	at t._doInvokeHandler (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:13802)
+	at t._invokeHandler (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:13486)
+	at t._receiveRequest (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:12097)
+	at t._receiveOneMessage (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:10826)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:8922
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at P.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:15967)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:114:30660
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at P.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:15967)
+	at g._receiveMessage (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:21237)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:18115
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at b.acceptChunk (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:13328)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:12676
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:114:19664
+	at afterWrite (internal/streams/writable.js:466:5)
+	at onwrite (internal/streams/writable.js:446:7)
+	at InflateRaw.afterTransform (internal/streams/transform.js:103:3)
+	at Zlib.processCallback (zlib.js:607:8)
+[2022-10-30 14:50:42.552] [exthost] [error] [ms-toolsai.jupyter] provider FAILED
+[2022-10-30 14:50:42.552] [exthost] [error] Error: Unable to retrieve document from URI 'file:///mnt/code/app.py'
+	at I.getDocument (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:70576)
+	at A.provideCodeActions (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:92816)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:117665
+	at xe._withAdapter (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:111762)
+	at xe.$provideCodeActions (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:117641)
+	at t._doInvokeHandler (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:13802)
+	at t._invokeHandler (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:13486)
+	at t._receiveRequest (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:12097)
+	at t._receiveOneMessage (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:10826)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:8922
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at P.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:15967)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:114:30660
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at P.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:15967)
+	at g._receiveMessage (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:21237)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:18115
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at b.acceptChunk (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:13328)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:12676
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:114:19664
+	at afterWrite (internal/streams/writable.js:466:5)
+	at onwrite (internal/streams/writable.js:446:7)
+	at InflateRaw.afterTransform (internal/streams/transform.js:103:3)
+	at Zlib.processCallback (zlib.js:607:8)
+[2022-10-30 14:50:42.552] [exthost] [error] [ms-python.python] provider FAILED
+[2022-10-30 14:50:42.552] [exthost] [error] Error: Unable to retrieve document from URI 'file:///mnt/code/app.py'
+	at I.getDocument (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:70576)
+	at A.provideCodeActions (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:92816)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:117665
+	at xe._withAdapter (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:111762)
+	at xe.$provideCodeActions (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:117641)
+	at t._doInvokeHandler (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:13802)
+	at t._invokeHandler (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:13486)
+	at t._receiveRequest (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:12097)
+	at t._receiveOneMessage (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:10826)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:8922
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at P.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:15967)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:114:30660
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at P.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:15967)
+	at g._receiveMessage (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:21237)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:18115
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at b.acceptChunk (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:13328)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:12676
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:114:19664
+	at afterWrite (internal/streams/writable.js:466:5)
+	at onwrite (internal/streams/writable.js:446:7)
+	at InflateRaw.afterTransform (internal/streams/transform.js:103:3)
+	at Zlib.processCallback (zlib.js:607:8)
+[2022-10-30 14:50:42.820] [exthost] [error] [ms-toolsai.jupyter] provider FAILED
+[2022-10-30 14:50:42.820] [exthost] [error] Error: Unable to retrieve document from URI 'file:///mnt/code/app.py'
+	at I.getDocument (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:70576)
+	at c.provideHover (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:90836)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:114943
+	at xe._withAdapter (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:111762)
+	at xe.$provideHover (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:114921)
+	at t._doInvokeHandler (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:13802)
+	at t._invokeHandler (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:13486)
+	at t._receiveRequest (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:12097)
+	at t._receiveOneMessage (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:10826)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:8922
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at P.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:15967)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:114:30660
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at P.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:15967)
+	at g._receiveMessage (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:21237)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:18115
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at b.acceptChunk (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:13328)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:12676
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:114:19664
+	at afterWrite (internal/streams/writable.js:466:5)
+	at onwrite (internal/streams/writable.js:446:7)
+	at InflateRaw.afterTransform (internal/streams/transform.js:103:3)
+	at Zlib.processCallback (zlib.js:607:8)
+[2022-10-30 14:50:42.820] [exthost] [error] [ms-python.python] provider FAILED
+[2022-10-30 14:50:42.820] [exthost] [error] Error: Unable to retrieve document from URI 'file:///mnt/code/app.py'
+	at I.getDocument (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:70576)
+	at c.provideHover (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:90836)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:114943
+	at xe._withAdapter (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:111762)
+	at xe.$provideHover (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:114921)
+	at t._doInvokeHandler (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:13802)
+	at t._invokeHandler (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:13486)
+	at t._receiveRequest (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:12097)
+	at t._receiveOneMessage (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:10826)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:8922
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at P.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:15967)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:114:30660
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at P.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:15967)
+	at g._receiveMessage (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:21237)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:18115
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at b.acceptChunk (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:13328)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:12676
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:114:19664
+	at afterWrite (internal/streams/writable.js:466:5)
+	at onwrite (internal/streams/writable.js:446:7)
+	at InflateRaw.afterTransform (internal/streams/transform.js:103:3)
+	at Zlib.processCallback (zlib.js:607:8)
+[2022-10-30 14:50:44.307] [exthost] [error] [ms-toolsai.jupyter] provider FAILED
+[2022-10-30 14:50:44.307] [exthost] [error] Error: Unable to retrieve document from URI 'file:///mnt/code/app.py'
+	at I.getDocument (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:70576)
+	at A.provideCodeActions (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:92816)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:117665
+	at xe._withAdapter (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:111762)
+	at xe.$provideCodeActions (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:117641)
+	at t._doInvokeHandler (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:13802)
+	at t._invokeHandler (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:13486)
+	at t._receiveRequest (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:12097)
+	at t._receiveOneMessage (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:10826)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:8922
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at P.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:15967)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:114:30660
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at P.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:15967)
+	at g._receiveMessage (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:21237)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:18115
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at b.acceptChunk (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:13328)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:12676
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:114:19664
+	at afterWrite (internal/streams/writable.js:466:5)
+	at onwrite (internal/streams/writable.js:446:7)
+	at InflateRaw.afterTransform (internal/streams/transform.js:103:3)
+	at Zlib.processCallback (zlib.js:607:8)
+[2022-10-30 14:50:44.307] [exthost] [error] [ms-python.python] provider FAILED
+[2022-10-30 14:50:44.307] [exthost] [error] Error: Unable to retrieve document from URI 'file:///mnt/code/app.py'
+	at I.getDocument (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:70576)
+	at A.provideCodeActions (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:92816)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:117665
+	at xe._withAdapter (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:111762)
+	at xe.$provideCodeActions (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:117641)
+	at t._doInvokeHandler (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:13802)
+	at t._invokeHandler (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:13486)
+	at t._receiveRequest (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:12097)
+	at t._receiveOneMessage (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:10826)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:8922
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at P.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:15967)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:114:30660
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at P.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:15967)
+	at g._receiveMessage (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:21237)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:18115
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at b.acceptChunk (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:13328)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:12676
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:114:19664
+	at afterWrite (internal/streams/writable.js:466:5)
+	at onwrite (internal/streams/writable.js:446:7)
+	at InflateRaw.afterTransform (internal/streams/transform.js:103:3)
+	at Zlib.processCallback (zlib.js:607:8)
+[2022-10-30 14:50:44.485] [exthost] [error] [ms-toolsai.jupyter] provider FAILED
+[2022-10-30 14:50:44.485] [exthost] [error] Error: Unable to retrieve document from URI 'file:///mnt/code/app.py'
+	at I.getDocument (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:70576)
+	at s.provideCodeLenses (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:88800)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:113160
+	at xe._withAdapter (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:111762)
+	at xe.$provideCodeLenses (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:113136)
+	at t._doInvokeHandler (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:13802)
+	at t._invokeHandler (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:13486)
+	at t._receiveRequest (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:12097)
+	at t._receiveOneMessage (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:10826)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:8922
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at P.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:15967)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:114:30660
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at P.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:15967)
+	at g._receiveMessage (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:21237)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:18115
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at b.acceptChunk (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:13328)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:12676
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:114:19664
+	at afterWrite (internal/streams/writable.js:466:5)
+	at onwrite (internal/streams/writable.js:446:7)
+	at InflateRaw.afterTransform (internal/streams/transform.js:103:3)
+	at Zlib.processCallback (zlib.js:607:8)
+[2022-10-30 14:50:44.486] [exthost] [error] [vscode.merge-conflict] provider FAILED
+[2022-10-30 14:50:44.486] [exthost] [error] Error: Unable to retrieve document from URI 'file:///mnt/code/app.py'
+	at I.getDocument (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:70576)
+	at s.provideCodeLenses (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:88800)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:113160
+	at xe._withAdapter (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:111762)
+	at xe.$provideCodeLenses (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:113136)
+	at t._doInvokeHandler (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:13802)
+	at t._invokeHandler (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:13486)
+	at t._receiveRequest (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:12097)
+	at t._receiveOneMessage (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:10826)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:8922
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at P.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:15967)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:114:30660
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at P.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:15967)
+	at g._receiveMessage (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:21237)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:18115
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at b.acceptChunk (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:13328)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:12676
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:114:19664
+	at afterWrite (internal/streams/writable.js:466:5)
+	at onwrite (internal/streams/writable.js:446:7)
+	at InflateRaw.afterTransform (internal/streams/transform.js:103:3)
+	at Zlib.processCallback (zlib.js:607:8)
+[2022-10-30 14:50:44.486] [exthost] [error] [ms-python.python] provider FAILED
+[2022-10-30 14:50:44.486] [exthost] [error] Error: Unable to retrieve document from URI 'file:///mnt/code/app.py'
+	at I.getDocument (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:70576)
+	at s.provideCodeLenses (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:88800)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:113160
+	at xe._withAdapter (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:111762)
+	at xe.$provideCodeLenses (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:113136)
+	at t._doInvokeHandler (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:13802)
+	at t._invokeHandler (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:13486)
+	at t._receiveRequest (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:12097)
+	at t._receiveOneMessage (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:10826)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:8922
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at P.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:15967)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:114:30660
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at P.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:15967)
+	at g._receiveMessage (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:21237)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:18115
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at b.acceptChunk (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:13328)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:12676
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:114:19664
+	at afterWrite (internal/streams/writable.js:466:5)
+	at onwrite (internal/streams/writable.js:446:7)
+	at InflateRaw.afterTransform (internal/streams/transform.js:103:3)
+	at Zlib.processCallback (zlib.js:607:8)
+[2022-10-30 14:50:44.486] [exthost] [error] [ms-python.python] provider FAILED
+[2022-10-30 14:50:44.486] [exthost] [error] Error: Unable to retrieve document from URI 'file:///mnt/code/app.py'
+	at I.getDocument (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:70576)
+	at l.provideDocumentSymbols (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:87683)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:112592
+	at xe._withAdapter (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:111762)
+	at xe.$provideDocumentSymbols (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:112568)
+	at t._doInvokeHandler (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:13802)
+	at t._invokeHandler (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:13486)
+	at t._receiveRequest (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:12097)
+	at t._receiveOneMessage (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:10826)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:8922
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at P.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:15967)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:114:30660
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at P.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:15967)
+	at g._receiveMessage (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:21237)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:18115
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at b.acceptChunk (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:13328)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:12676
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:114:19664
+	at afterWrite (internal/streams/writable.js:466:5)
+	at onwrite (internal/streams/writable.js:446:7)
+	at InflateRaw.afterTransform (internal/streams/transform.js:103:3)
+	at Zlib.processCallback (zlib.js:607:8)
+[2022-10-30 14:50:44.845] [exthost] [error] [ms-toolsai.jupyter] provider FAILED
+[2022-10-30 14:50:44.846] [exthost] [error] Error: Unable to retrieve document from URI 'file:///mnt/code/app.py'
+	at I.getDocument (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:70576)
+	at c.provideHover (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:90836)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:114943
+	at xe._withAdapter (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:111762)
+	at xe.$provideHover (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:114921)
+	at t._doInvokeHandler (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:13802)
+	at t._invokeHandler (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:13486)
+	at t._receiveRequest (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:12097)
+	at t._receiveOneMessage (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:10826)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:8922
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at P.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:15967)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:114:30660
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at P.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:15967)
+	at g._receiveMessage (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:21237)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:18115
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at b.acceptChunk (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:13328)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:12676
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:114:19664
+	at afterWrite (internal/streams/writable.js:466:5)
+	at onwrite (internal/streams/writable.js:446:7)
+	at InflateRaw.afterTransform (internal/streams/transform.js:103:3)
+	at Zlib.processCallback (zlib.js:607:8)
+[2022-10-30 14:50:44.846] [exthost] [error] [ms-python.python] provider FAILED
+[2022-10-30 14:50:44.846] [exthost] [error] Error: Unable to retrieve document from URI 'file:///mnt/code/app.py'
+	at I.getDocument (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:70576)
+	at c.provideHover (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:90836)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:114943
+	at xe._withAdapter (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:111762)
+	at xe.$provideHover (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:114921)
+	at t._doInvokeHandler (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:13802)
+	at t._invokeHandler (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:13486)
+	at t._receiveRequest (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:12097)
+	at t._receiveOneMessage (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:10826)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:8922
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at P.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:15967)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:114:30660
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at P.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:15967)
+	at g._receiveMessage (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:21237)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:18115
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at b.acceptChunk (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:13328)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:12676
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:114:19664
+	at afterWrite (internal/streams/writable.js:466:5)
+	at onwrite (internal/streams/writable.js:446:7)
+	at InflateRaw.afterTransform (internal/streams/transform.js:103:3)
+	at Zlib.processCallback (zlib.js:607:8)
+[2022-10-30 14:50:45.391] [exthost] [error] [ms-toolsai.jupyter] provider FAILED
+[2022-10-30 14:50:45.391] [exthost] [error] Error: Unable to retrieve document from URI 'file:///mnt/code/app.py'
+	at I.getDocument (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:70576)
+	at c.provideHover (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:90836)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:114943
+	at xe._withAdapter (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:111762)
+	at xe.$provideHover (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:114921)
+	at t._doInvokeHandler (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:13802)
+	at t._invokeHandler (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:13486)
+	at t._receiveRequest (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:12097)
+	at t._receiveOneMessage (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:10826)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:8922
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at P.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:15967)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:114:30660
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at P.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:15967)
+	at g._receiveMessage (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:21237)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:18115
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at b.acceptChunk (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:13328)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:12676
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:114:19664
+	at afterWrite (internal/streams/writable.js:466:5)
+	at onwrite (internal/streams/writable.js:446:7)
+	at InflateRaw.afterTransform (internal/streams/transform.js:103:3)
+	at Zlib.processCallback (zlib.js:607:8)
+[2022-10-30 14:50:45.391] [exthost] [error] [ms-python.python] provider FAILED
+[2022-10-30 14:50:45.391] [exthost] [error] Error: Unable to retrieve document from URI 'file:///mnt/code/app.py'
+	at I.getDocument (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:70576)
+	at c.provideHover (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:90836)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:114943
+	at xe._withAdapter (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:111762)
+	at xe.$provideHover (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:114921)
+	at t._doInvokeHandler (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:13802)
+	at t._invokeHandler (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:13486)
+	at t._receiveRequest (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:12097)
+	at t._receiveOneMessage (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:10826)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:8922
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at P.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:15967)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:114:30660
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at P.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:15967)
+	at g._receiveMessage (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:21237)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:18115
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at b.acceptChunk (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:13328)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:12676
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:114:19664
+	at afterWrite (internal/streams/writable.js:466:5)
+	at onwrite (internal/streams/writable.js:446:7)
+	at InflateRaw.afterTransform (internal/streams/transform.js:103:3)
+	at Zlib.processCallback (zlib.js:607:8)
+[2022-10-30 14:50:45.748] [exthost] [error] [ms-toolsai.jupyter] provider FAILED
+[2022-10-30 14:50:45.748] [exthost] [error] Error: Unable to retrieve document from URI 'file:///mnt/code/app.py'
+	at I.getDocument (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:70576)
+	at A.provideCodeActions (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:92816)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:117665
+	at xe._withAdapter (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:111762)
+	at xe.$provideCodeActions (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:117641)
+	at t._doInvokeHandler (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:13802)
+	at t._invokeHandler (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:13486)
+	at t._receiveRequest (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:12097)
+	at t._receiveOneMessage (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:10826)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:8922
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at P.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:15967)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:114:30660
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at P.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:15967)
+	at g._receiveMessage (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:21237)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:18115
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at b.acceptChunk (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:13328)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:12676
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:114:19664
+	at afterWrite (internal/streams/writable.js:466:5)
+	at onwrite (internal/streams/writable.js:446:7)
+	at InflateRaw.afterTransform (internal/streams/transform.js:103:3)
+	at Zlib.processCallback (zlib.js:607:8)
+[2022-10-30 14:50:45.748] [exthost] [error] [ms-python.python] provider FAILED
+[2022-10-30 14:50:45.748] [exthost] [error] Error: Unable to retrieve document from URI 'file:///mnt/code/app.py'
+	at I.getDocument (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:70576)
+	at A.provideCodeActions (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:92816)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:117665
+	at xe._withAdapter (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:111762)
+	at xe.$provideCodeActions (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:117641)
+	at t._doInvokeHandler (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:13802)
+	at t._invokeHandler (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:13486)
+	at t._receiveRequest (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:12097)
+	at t._receiveOneMessage (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:10826)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:8922
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at P.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:15967)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:114:30660
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at P.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:15967)
+	at g._receiveMessage (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:21237)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:18115
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at b.acceptChunk (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:13328)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:12676
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:114:19664
+	at afterWrite (internal/streams/writable.js:466:5)
+	at onwrite (internal/streams/writable.js:446:7)
+	at InflateRaw.afterTransform (internal/streams/transform.js:103:3)
+	at Zlib.processCallback (zlib.js:607:8)
+[2022-10-30 14:50:46.107] [exthost] [error] [ms-toolsai.jupyter] provider FAILED
+[2022-10-30 14:50:46.107] [exthost] [error] Error: Unable to retrieve document from URI 'file:///mnt/code/app.py'
+	at I.getDocument (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:70576)
+	at A.provideCodeActions (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:92816)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:117665
+	at xe._withAdapter (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:111762)
+	at xe.$provideCodeActions (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:117641)
+	at t._doInvokeHandler (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:13802)
+	at t._invokeHandler (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:13486)
+	at t._receiveRequest (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:12097)
+	at t._receiveOneMessage (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:10826)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:8922
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at P.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:15967)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:114:30660
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at P.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:15967)
+	at g._receiveMessage (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:21237)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:18115
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at b.acceptChunk (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:13328)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:12676
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:114:19664
+	at afterWrite (internal/streams/writable.js:466:5)
+	at onwrite (internal/streams/writable.js:446:7)
+	at InflateRaw.afterTransform (internal/streams/transform.js:103:3)
+	at Zlib.processCallback (zlib.js:607:8)
+[2022-10-30 14:50:46.107] [exthost] [error] [ms-python.python] provider FAILED
+[2022-10-30 14:50:46.107] [exthost] [error] Error: Unable to retrieve document from URI 'file:///mnt/code/app.py'
+	at I.getDocument (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:70576)
+	at A.provideCodeActions (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:92816)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:117665
+	at xe._withAdapter (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:111762)
+	at xe.$provideCodeActions (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:117641)
+	at t._doInvokeHandler (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:13802)
+	at t._invokeHandler (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:13486)
+	at t._receiveRequest (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:12097)
+	at t._receiveOneMessage (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:10826)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:8922
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at P.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:15967)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:114:30660
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at P.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:15967)
+	at g._receiveMessage (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:21237)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:18115
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at b.acceptChunk (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:13328)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:12676
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:114:19664
+	at afterWrite (internal/streams/writable.js:466:5)
+	at onwrite (internal/streams/writable.js:446:7)
+	at InflateRaw.afterTransform (internal/streams/transform.js:103:3)
+	at Zlib.processCallback (zlib.js:607:8)
+[2022-10-30 14:50:46.285] [exthost] [error] [ms-toolsai.jupyter] provider FAILED
+[2022-10-30 14:50:46.285] [exthost] [error] Error: Unable to retrieve document from URI 'file:///mnt/code/app.py'
+	at I.getDocument (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:70576)
+	at s.provideCodeLenses (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:88800)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:113160
+	at xe._withAdapter (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:111762)
+	at xe.$provideCodeLenses (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:113136)
+	at t._doInvokeHandler (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:13802)
+	at t._invokeHandler (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:13486)
+	at t._receiveRequest (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:12097)
+	at t._receiveOneMessage (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:10826)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:8922
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at P.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:15967)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:114:30660
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at P.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:15967)
+	at g._receiveMessage (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:21237)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:18115
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at b.acceptChunk (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:13328)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:12676
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:114:19664
+	at afterWrite (internal/streams/writable.js:466:5)
+	at onwrite (internal/streams/writable.js:446:7)
+	at InflateRaw.afterTransform (internal/streams/transform.js:103:3)
+	at Zlib.processCallback (zlib.js:607:8)
+[2022-10-30 14:50:46.286] [exthost] [error] [vscode.merge-conflict] provider FAILED
+[2022-10-30 14:50:46.286] [exthost] [error] Error: Unable to retrieve document from URI 'file:///mnt/code/app.py'
+	at I.getDocument (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:70576)
+	at s.provideCodeLenses (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:88800)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:113160
+	at xe._withAdapter (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:111762)
+	at xe.$provideCodeLenses (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:113136)
+	at t._doInvokeHandler (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:13802)
+	at t._invokeHandler (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:13486)
+	at t._receiveRequest (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:12097)
+	at t._receiveOneMessage (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:10826)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:8922
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at P.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:15967)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:114:30660
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at P.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:15967)
+	at g._receiveMessage (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:21237)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:18115
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at b.acceptChunk (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:13328)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:12676
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:114:19664
+	at afterWrite (internal/streams/writable.js:466:5)
+	at onwrite (internal/streams/writable.js:446:7)
+	at InflateRaw.afterTransform (internal/streams/transform.js:103:3)
+	at Zlib.processCallback (zlib.js:607:8)
+[2022-10-30 14:50:46.286] [exthost] [error] [ms-python.python] provider FAILED
+[2022-10-30 14:50:46.286] [exthost] [error] Error: Unable to retrieve document from URI 'file:///mnt/code/app.py'
+	at I.getDocument (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:70576)
+	at s.provideCodeLenses (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:88800)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:113160
+	at xe._withAdapter (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:111762)
+	at xe.$provideCodeLenses (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:113136)
+	at t._doInvokeHandler (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:13802)
+	at t._invokeHandler (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:13486)
+	at t._receiveRequest (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:12097)
+	at t._receiveOneMessage (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:10826)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:8922
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at P.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:15967)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:114:30660
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at P.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:15967)
+	at g._receiveMessage (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:21237)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:18115
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at b.acceptChunk (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:13328)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:12676
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:114:19664
+	at afterWrite (internal/streams/writable.js:466:5)
+	at onwrite (internal/streams/writable.js:446:7)
+	at InflateRaw.afterTransform (internal/streams/transform.js:103:3)
+	at Zlib.processCallback (zlib.js:607:8)
+[2022-10-30 14:50:46.286] [exthost] [error] [ms-python.python] provider FAILED
+[2022-10-30 14:50:46.286] [exthost] [error] Error: Unable to retrieve document from URI 'file:///mnt/code/app.py'
+	at I.getDocument (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:70576)
+	at l.provideDocumentSymbols (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:87683)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:112592
+	at xe._withAdapter (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:111762)
+	at xe.$provideDocumentSymbols (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:112568)
+	at t._doInvokeHandler (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:13802)
+	at t._invokeHandler (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:13486)
+	at t._receiveRequest (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:12097)
+	at t._receiveOneMessage (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:10826)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:8922
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at P.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:15967)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:114:30660
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at P.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:15967)
+	at g._receiveMessage (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:21237)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:18115
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at b.acceptChunk (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:13328)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:12676
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:114:19664
+	at afterWrite (internal/streams/writable.js:466:5)
+	at onwrite (internal/streams/writable.js:446:7)
+	at InflateRaw.afterTransform (internal/streams/transform.js:103:3)
+	at Zlib.processCallback (zlib.js:607:8)
+[2022-10-30 14:50:47.277] [exthost] [error] [ms-toolsai.jupyter] provider FAILED
+[2022-10-30 14:50:47.278] [exthost] [error] Error: Unable to retrieve document from URI 'file:///mnt/code/app.py'
+	at I.getDocument (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:70576)
+	at c.provideHover (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:90836)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:114943
+	at xe._withAdapter (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:111762)
+	at xe.$provideHover (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:114921)
+	at t._doInvokeHandler (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:13802)
+	at t._invokeHandler (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:13486)
+	at t._receiveRequest (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:12097)
+	at t._receiveOneMessage (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:10826)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:8922
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at P.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:15967)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:114:30660
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at P.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:15967)
+	at g._receiveMessage (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:21237)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:18115
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at b.acceptChunk (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:13328)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:12676
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:114:19664
+	at afterWrite (internal/streams/writable.js:466:5)
+	at onwrite (internal/streams/writable.js:446:7)
+	at InflateRaw.afterTransform (internal/streams/transform.js:103:3)
+	at Zlib.processCallback (zlib.js:607:8)
+[2022-10-30 14:50:47.278] [exthost] [error] [ms-python.python] provider FAILED
+[2022-10-30 14:50:47.278] [exthost] [error] Error: Unable to retrieve document from URI 'file:///mnt/code/app.py'
+	at I.getDocument (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:70576)
+	at c.provideHover (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:90836)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:114943
+	at xe._withAdapter (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:111762)
+	at xe.$provideHover (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:114921)
+	at t._doInvokeHandler (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:13802)
+	at t._invokeHandler (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:13486)
+	at t._receiveRequest (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:12097)
+	at t._receiveOneMessage (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:10826)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:8922
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at P.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:15967)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:114:30660
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at P.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:15967)
+	at g._receiveMessage (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:21237)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:18115
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at b.acceptChunk (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:13328)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:12676
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:114:19664
+	at afterWrite (internal/streams/writable.js:466:5)
+	at onwrite (internal/streams/writable.js:446:7)
+	at InflateRaw.afterTransform (internal/streams/transform.js:103:3)
+	at Zlib.processCallback (zlib.js:607:8)
+[2022-10-30 14:50:47.714] [exthost] [error] [ms-python.python] provider FAILED
+[2022-10-30 14:50:47.714] [exthost] [error] Error: Unable to retrieve document from URI 'file:///mnt/code/app.py'
+	at I.getDocument (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:70576)
+	at h.provideDocumentHighlights (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:91762)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:116186
+	at xe._withAdapter (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:111762)
+	at xe.$provideDocumentHighlights (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:116164)
+	at t._doInvokeHandler (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:13802)
+	at t._invokeHandler (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:13486)
+	at t._receiveRequest (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:12097)
+	at t._receiveOneMessage (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:10826)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:8922
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at P.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:15967)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:114:30660
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at P.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:15967)
+	at g._receiveMessage (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:21237)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:18115
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at b.acceptChunk (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:13328)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:12676
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:114:19664
+	at afterWrite (internal/streams/writable.js:466:5)
+	at onwrite (internal/streams/writable.js:446:7)
+	at InflateRaw.afterTransform (internal/streams/transform.js:103:3)
+	at Zlib.processCallback (zlib.js:607:8)
+[2022-10-30 14:50:48.608] [exthost] [error] [ms-toolsai.jupyter] provider FAILED
+[2022-10-30 14:50:48.609] [exthost] [error] Error: Unable to retrieve document from URI 'file:///mnt/code/app.py'
+	at I.getDocument (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:70576)
+	at A.provideCodeActions (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:92816)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:117665
+	at xe._withAdapter (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:111762)
+	at xe.$provideCodeActions (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:117641)
+	at t._doInvokeHandler (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:13802)
+	at t._invokeHandler (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:13486)
+	at t._receiveRequest (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:12097)
+	at t._receiveOneMessage (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:10826)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:8922
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at P.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:15967)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:114:30660
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at P.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:15967)
+	at g._receiveMessage (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:21237)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:18115
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at b.acceptChunk (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:13328)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:12676
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:114:19664
+	at afterWrite (internal/streams/writable.js:466:5)
+	at onwrite (internal/streams/writable.js:446:7)
+	at InflateRaw.afterTransform (internal/streams/transform.js:103:3)
+	at Zlib.processCallback (zlib.js:607:8)
+[2022-10-30 14:50:48.609] [exthost] [error] [ms-python.python] provider FAILED
+[2022-10-30 14:50:48.609] [exthost] [error] Error: Unable to retrieve document from URI 'file:///mnt/code/app.py'
+	at I.getDocument (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:70576)
+	at A.provideCodeActions (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:92816)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:117665
+	at xe._withAdapter (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:111762)
+	at xe.$provideCodeActions (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:117641)
+	at t._doInvokeHandler (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:13802)
+	at t._invokeHandler (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:13486)
+	at t._receiveRequest (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:12097)
+	at t._receiveOneMessage (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:10826)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:8922
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at P.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:15967)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:114:30660
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at P.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:15967)
+	at g._receiveMessage (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:21237)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:18115
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at b.acceptChunk (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:13328)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:12676
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:114:19664
+	at afterWrite (internal/streams/writable.js:466:5)
+	at onwrite (internal/streams/writable.js:446:7)
+	at InflateRaw.afterTransform (internal/streams/transform.js:103:3)
+	at Zlib.processCallback (zlib.js:607:8)
+[2022-10-30 14:50:49.035] [exthost] [error] [ms-toolsai.jupyter] provider FAILED
+[2022-10-30 14:50:49.036] [exthost] [error] Error: Unable to retrieve document from URI 'file:///mnt/code/app.py'
+	at I.getDocument (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:70576)
+	at A.provideCodeActions (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:92816)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:117665
+	at xe._withAdapter (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:111762)
+	at xe.$provideCodeActions (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:117641)
+	at t._doInvokeHandler (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:13802)
+	at t._invokeHandler (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:13486)
+	at t._receiveRequest (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:12097)
+	at t._receiveOneMessage (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:10826)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:8922
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at P.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:15967)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:114:30660
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at P.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:15967)
+	at g._receiveMessage (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:21237)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:18115
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at b.acceptChunk (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:13328)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:12676
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:114:19664
+	at afterWrite (internal/streams/writable.js:466:5)
+	at onwrite (internal/streams/writable.js:446:7)
+	at InflateRaw.afterTransform (internal/streams/transform.js:103:3)
+	at Zlib.processCallback (zlib.js:607:8)
+[2022-10-30 14:50:49.036] [exthost] [error] [ms-python.python] provider FAILED
+[2022-10-30 14:50:49.036] [exthost] [error] Error: Unable to retrieve document from URI 'file:///mnt/code/app.py'
+	at I.getDocument (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:70576)
+	at A.provideCodeActions (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:92816)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:117665
+	at xe._withAdapter (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:111762)
+	at xe.$provideCodeActions (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:117641)
+	at t._doInvokeHandler (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:13802)
+	at t._invokeHandler (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:13486)
+	at t._receiveRequest (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:12097)
+	at t._receiveOneMessage (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:10826)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:8922
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at P.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:15967)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:114:30660
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at P.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:15967)
+	at g._receiveMessage (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:21237)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:18115
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at b.acceptChunk (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:13328)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:12676
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:114:19664
+	at afterWrite (internal/streams/writable.js:466:5)
+	at onwrite (internal/streams/writable.js:446:7)
+	at InflateRaw.afterTransform (internal/streams/transform.js:103:3)
+	at Zlib.processCallback (zlib.js:607:8)
+[2022-10-30 14:50:49.213] [exthost] [error] [ms-toolsai.jupyter] provider FAILED
+[2022-10-30 14:50:49.214] [exthost] [error] Error: Unable to retrieve document from URI 'file:///mnt/code/app.py'
+	at I.getDocument (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:70576)
+	at c.provideHover (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:90836)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:114943
+	at xe._withAdapter (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:111762)
+	at xe.$provideHover (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:114921)
+	at t._doInvokeHandler (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:13802)
+	at t._invokeHandler (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:13486)
+	at t._receiveRequest (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:12097)
+	at t._receiveOneMessage (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:10826)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:8922
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at P.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:15967)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:114:30660
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at P.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:15967)
+	at g._receiveMessage (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:21237)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:18115
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at b.acceptChunk (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:13328)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:12676
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:114:19664
+	at afterWrite (internal/streams/writable.js:466:5)
+	at onwrite (internal/streams/writable.js:446:7)
+	at InflateRaw.afterTransform (internal/streams/transform.js:103:3)
+	at Zlib.processCallback (zlib.js:607:8)
+[2022-10-30 14:50:49.214] [exthost] [error] [ms-python.python] provider FAILED
+[2022-10-30 14:50:49.214] [exthost] [error] Error: Unable to retrieve document from URI 'file:///mnt/code/app.py'
+	at I.getDocument (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:70576)
+	at c.provideHover (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:90836)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:114943
+	at xe._withAdapter (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:111762)
+	at xe.$provideHover (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:114921)
+	at t._doInvokeHandler (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:13802)
+	at t._invokeHandler (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:13486)
+	at t._receiveRequest (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:12097)
+	at t._receiveOneMessage (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:10826)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:8922
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at P.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:15967)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:114:30660
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at P.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:15967)
+	at g._receiveMessage (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:21237)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:18115
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at b.acceptChunk (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:13328)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:12676
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:114:19664
+	at afterWrite (internal/streams/writable.js:466:5)
+	at onwrite (internal/streams/writable.js:446:7)
+	at InflateRaw.afterTransform (internal/streams/transform.js:103:3)
+	at Zlib.processCallback (zlib.js:607:8)
+[2022-10-30 14:50:49.570] [exthost] [error] [ms-toolsai.jupyter] provider FAILED
+[2022-10-30 14:50:49.571] [exthost] [error] Error: Unable to retrieve document from URI 'file:///mnt/code/app.py'
+	at I.getDocument (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:70576)
+	at A.provideCodeActions (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:92816)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:117665
+	at xe._withAdapter (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:111762)
+	at xe.$provideCodeActions (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:117641)
+	at t._doInvokeHandler (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:13802)
+	at t._invokeHandler (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:13486)
+	at t._receiveRequest (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:12097)
+	at t._receiveOneMessage (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:10826)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:8922
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at P.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:15967)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:114:30660
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at P.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:15967)
+	at g._receiveMessage (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:21237)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:18115
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at b.acceptChunk (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:13328)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:12676
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:114:19664
+	at afterWrite (internal/streams/writable.js:466:5)
+	at onwrite (internal/streams/writable.js:446:7)
+	at InflateRaw.afterTransform (internal/streams/transform.js:103:3)
+	at Zlib.processCallback (zlib.js:607:8)
+[2022-10-30 14:50:49.571] [exthost] [error] [ms-python.python] provider FAILED
+[2022-10-30 14:50:49.571] [exthost] [error] Error: Unable to retrieve document from URI 'file:///mnt/code/app.py'
+	at I.getDocument (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:70576)
+	at A.provideCodeActions (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:92816)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:117665
+	at xe._withAdapter (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:111762)
+	at xe.$provideCodeActions (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:117641)
+	at t._doInvokeHandler (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:13802)
+	at t._invokeHandler (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:13486)
+	at t._receiveRequest (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:12097)
+	at t._receiveOneMessage (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:10826)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:8922
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at P.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:15967)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:114:30660
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at P.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:15967)
+	at g._receiveMessage (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:21237)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:18115
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at b.acceptChunk (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:13328)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:12676
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:114:19664
+	at afterWrite (internal/streams/writable.js:466:5)
+	at onwrite (internal/streams/writable.js:446:7)
+	at InflateRaw.afterTransform (internal/streams/transform.js:103:3)
+	at Zlib.processCallback (zlib.js:607:8)
+[2022-10-30 14:50:49.571] [exthost] [error] [ms-toolsai.jupyter] provider FAILED
+[2022-10-30 14:50:49.572] [exthost] [error] Error: Unable to retrieve document from URI 'file:///mnt/code/app.py'
+	at I.getDocument (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:70576)
+	at s.provideCodeLenses (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:88800)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:113160
+	at xe._withAdapter (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:111762)
+	at xe.$provideCodeLenses (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:113136)
+	at t._doInvokeHandler (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:13802)
+	at t._invokeHandler (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:13486)
+	at t._receiveRequest (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:12097)
+	at t._receiveOneMessage (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:10826)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:8922
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at P.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:15967)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:114:30660
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at P.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:15967)
+	at g._receiveMessage (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:21237)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:18115
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at b.acceptChunk (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:13328)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:12676
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:114:19664
+	at afterWrite (internal/streams/writable.js:466:5)
+	at onwrite (internal/streams/writable.js:446:7)
+	at InflateRaw.afterTransform (internal/streams/transform.js:103:3)
+	at Zlib.processCallback (zlib.js:607:8)
+[2022-10-30 14:50:49.572] [exthost] [error] [vscode.merge-conflict] provider FAILED
+[2022-10-30 14:50:49.572] [exthost] [error] Error: Unable to retrieve document from URI 'file:///mnt/code/app.py'
+	at I.getDocument (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:70576)
+	at s.provideCodeLenses (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:88800)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:113160
+	at xe._withAdapter (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:111762)
+	at xe.$provideCodeLenses (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:113136)
+	at t._doInvokeHandler (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:13802)
+	at t._invokeHandler (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:13486)
+	at t._receiveRequest (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:12097)
+	at t._receiveOneMessage (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:10826)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:8922
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at P.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:15967)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:114:30660
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at P.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:15967)
+	at g._receiveMessage (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:21237)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:18115
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at b.acceptChunk (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:13328)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:12676
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:114:19664
+	at afterWrite (internal/streams/writable.js:466:5)
+	at onwrite (internal/streams/writable.js:446:7)
+	at InflateRaw.afterTransform (internal/streams/transform.js:103:3)
+	at Zlib.processCallback (zlib.js:607:8)
+[2022-10-30 14:50:49.572] [exthost] [error] [ms-python.python] provider FAILED
+[2022-10-30 14:50:49.572] [exthost] [error] Error: Unable to retrieve document from URI 'file:///mnt/code/app.py'
+	at I.getDocument (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:70576)
+	at s.provideCodeLenses (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:88800)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:113160
+	at xe._withAdapter (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:111762)
+	at xe.$provideCodeLenses (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:113136)
+	at t._doInvokeHandler (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:13802)
+	at t._invokeHandler (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:13486)
+	at t._receiveRequest (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:12097)
+	at t._receiveOneMessage (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:10826)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:8922
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at P.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:15967)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:114:30660
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at P.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:15967)
+	at g._receiveMessage (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:21237)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:18115
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at b.acceptChunk (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:13328)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:12676
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:114:19664
+	at afterWrite (internal/streams/writable.js:466:5)
+	at onwrite (internal/streams/writable.js:446:7)
+	at InflateRaw.afterTransform (internal/streams/transform.js:103:3)
+	at Zlib.processCallback (zlib.js:607:8)
+[2022-10-30 14:50:49.573] [exthost] [error] [ms-python.python] provider FAILED
+[2022-10-30 14:50:49.573] [exthost] [error] Error: Unable to retrieve document from URI 'file:///mnt/code/app.py'
+	at I.getDocument (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:70576)
+	at l.provideDocumentSymbols (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:87683)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:112592
+	at xe._withAdapter (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:111762)
+	at xe.$provideDocumentSymbols (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:112568)
+	at t._doInvokeHandler (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:13802)
+	at t._invokeHandler (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:13486)
+	at t._receiveRequest (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:12097)
+	at t._receiveOneMessage (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:10826)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:8922
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at P.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:15967)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:114:30660
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at P.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:15967)
+	at g._receiveMessage (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:21237)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:18115
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at b.acceptChunk (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:13328)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:12676
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:114:19664
+	at afterWrite (internal/streams/writable.js:466:5)
+	at onwrite (internal/streams/writable.js:446:7)
+	at InflateRaw.afterTransform (internal/streams/transform.js:103:3)
+	at Zlib.processCallback (zlib.js:607:8)
+[2022-10-30 14:50:50.199] [exthost] [error] [ms-toolsai.jupyter] provider FAILED
+[2022-10-30 14:50:50.199] [exthost] [error] Error: Unable to retrieve document from URI 'file:///mnt/code/app.py'
+	at I.getDocument (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:70576)
+	at c.provideHover (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:90836)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:114943
+	at xe._withAdapter (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:111762)
+	at xe.$provideHover (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:114921)
+	at t._doInvokeHandler (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:13802)
+	at t._invokeHandler (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:13486)
+	at t._receiveRequest (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:12097)
+	at t._receiveOneMessage (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:10826)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:8922
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at P.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:15967)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:114:30660
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at P.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:15967)
+	at g._receiveMessage (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:21237)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:18115
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at b.acceptChunk (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:13328)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:12676
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:114:19664
+	at afterWrite (internal/streams/writable.js:466:5)
+	at onwrite (internal/streams/writable.js:446:7)
+	at InflateRaw.afterTransform (internal/streams/transform.js:103:3)
+	at Zlib.processCallback (zlib.js:607:8)
+[2022-10-30 14:50:50.199] [exthost] [error] [ms-python.python] provider FAILED
+[2022-10-30 14:50:50.199] [exthost] [error] Error: Unable to retrieve document from URI 'file:///mnt/code/app.py'
+	at I.getDocument (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:70576)
+	at c.provideHover (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:90836)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:114943
+	at xe._withAdapter (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:111762)
+	at xe.$provideHover (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:114921)
+	at t._doInvokeHandler (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:13802)
+	at t._invokeHandler (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:13486)
+	at t._receiveRequest (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:12097)
+	at t._receiveOneMessage (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:10826)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:8922
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at P.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:15967)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:114:30660
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at P.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:15967)
+	at g._receiveMessage (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:21237)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:18115
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at b.acceptChunk (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:13328)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:12676
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:114:19664
+	at afterWrite (internal/streams/writable.js:466:5)
+	at onwrite (internal/streams/writable.js:446:7)
+	at InflateRaw.afterTransform (internal/streams/transform.js:103:3)
+	at Zlib.processCallback (zlib.js:607:8)
+[2022-10-30 14:50:50.692] [exthost] [error] [ms-toolsai.jupyter] provider FAILED
+[2022-10-30 14:50:50.692] [exthost] [error] Error: Unable to retrieve document from URI 'file:///mnt/code/app.py'
+	at I.getDocument (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:70576)
+	at c.provideHover (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:90836)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:114943
+	at xe._withAdapter (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:111762)
+	at xe.$provideHover (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:114921)
+	at t._doInvokeHandler (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:13802)
+	at t._invokeHandler (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:13486)
+	at t._receiveRequest (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:12097)
+	at t._receiveOneMessage (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:10826)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:8922
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at P.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:15967)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:114:30660
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at P.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:15967)
+	at g._receiveMessage (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:21237)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:18115
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at b.acceptChunk (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:13328)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:12676
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:114:19664
+	at afterWrite (internal/streams/writable.js:466:5)
+	at onwrite (internal/streams/writable.js:446:7)
+	at InflateRaw.afterTransform (internal/streams/transform.js:103:3)
+	at Zlib.processCallback (zlib.js:607:8)
+[2022-10-30 14:50:50.692] [exthost] [error] [ms-python.python] provider FAILED
+[2022-10-30 14:50:50.692] [exthost] [error] Error: Unable to retrieve document from URI 'file:///mnt/code/app.py'
+	at I.getDocument (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:70576)
+	at c.provideHover (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:90836)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:114943
+	at xe._withAdapter (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:111762)
+	at xe.$provideHover (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:114921)
+	at t._doInvokeHandler (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:13802)
+	at t._invokeHandler (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:13486)
+	at t._receiveRequest (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:12097)
+	at t._receiveOneMessage (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:10826)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:8922
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at P.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:15967)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:114:30660
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at P.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:15967)
+	at g._receiveMessage (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:21237)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:18115
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at b.acceptChunk (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:13328)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:12676
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:114:19664
+	at afterWrite (internal/streams/writable.js:466:5)
+	at onwrite (internal/streams/writable.js:446:7)
+	at InflateRaw.afterTransform (internal/streams/transform.js:103:3)
+	at Zlib.processCallback (zlib.js:607:8)
+[2022-10-30 14:50:51.235] [exthost] [error] [ms-toolsai.jupyter] provider FAILED
+[2022-10-30 14:50:51.236] [exthost] [error] Error: Unable to retrieve document from URI 'file:///mnt/code/app.py'
+	at I.getDocument (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:70576)
+	at A.provideCodeActions (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:92816)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:117665
+	at xe._withAdapter (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:111762)
+	at xe.$provideCodeActions (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:117641)
+	at t._doInvokeHandler (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:13802)
+	at t._invokeHandler (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:13486)
+	at t._receiveRequest (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:12097)
+	at t._receiveOneMessage (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:10826)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:8922
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at P.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:15967)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:114:30660
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at P.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:15967)
+	at g._receiveMessage (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:21237)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:18115
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at b.acceptChunk (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:13328)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:12676
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:114:19664
+	at afterWrite (internal/streams/writable.js:466:5)
+	at onwrite (internal/streams/writable.js:446:7)
+	at InflateRaw.afterTransform (internal/streams/transform.js:103:3)
+	at Zlib.processCallback (zlib.js:607:8)
+[2022-10-30 14:50:51.236] [exthost] [error] [ms-python.python] provider FAILED
+[2022-10-30 14:50:51.236] [exthost] [error] Error: Unable to retrieve document from URI 'file:///mnt/code/app.py'
+	at I.getDocument (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:70576)
+	at A.provideCodeActions (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:92816)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:117665
+	at xe._withAdapter (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:111762)
+	at xe.$provideCodeActions (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:117641)
+	at t._doInvokeHandler (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:13802)
+	at t._invokeHandler (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:13486)
+	at t._receiveRequest (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:12097)
+	at t._receiveOneMessage (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:10826)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:8922
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at P.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:15967)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:114:30660
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at P.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:15967)
+	at g._receiveMessage (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:21237)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:18115
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at b.acceptChunk (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:13328)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:12676
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:114:19664
+	at afterWrite (internal/streams/writable.js:466:5)
+	at onwrite (internal/streams/writable.js:446:7)
+	at InflateRaw.afterTransform (internal/streams/transform.js:103:3)
+	at Zlib.processCallback (zlib.js:607:8)
+[2022-10-30 14:50:51.414] [exthost] [error] [ms-toolsai.jupyter] provider FAILED
+[2022-10-30 14:50:51.414] [exthost] [error] Error: Unable to retrieve document from URI 'file:///mnt/code/app.py'
+	at I.getDocument (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:70576)
+	at A.provideCodeActions (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:92816)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:117665
+	at xe._withAdapter (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:111762)
+	at xe.$provideCodeActions (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:117641)
+	at t._doInvokeHandler (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:13802)
+	at t._invokeHandler (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:13486)
+	at t._receiveRequest (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:12097)
+	at t._receiveOneMessage (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:10826)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:8922
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at P.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:15967)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:114:30660
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at P.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:15967)
+	at g._receiveMessage (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:21237)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:18115
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at b.acceptChunk (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:13328)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:12676
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:114:19664
+	at afterWrite (internal/streams/writable.js:466:5)
+	at onwrite (internal/streams/writable.js:446:7)
+	at InflateRaw.afterTransform (internal/streams/transform.js:103:3)
+	at Zlib.processCallback (zlib.js:607:8)
+[2022-10-30 14:50:51.414] [exthost] [error] [ms-python.python] provider FAILED
+[2022-10-30 14:50:51.414] [exthost] [error] Error: Unable to retrieve document from URI 'file:///mnt/code/app.py'
+	at I.getDocument (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:70576)
+	at A.provideCodeActions (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:92816)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:117665
+	at xe._withAdapter (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:111762)
+	at xe.$provideCodeActions (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:117641)
+	at t._doInvokeHandler (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:13802)
+	at t._invokeHandler (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:13486)
+	at t._receiveRequest (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:12097)
+	at t._receiveOneMessage (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:10826)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:8922
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at P.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:15967)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:114:30660
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at P.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:15967)
+	at g._receiveMessage (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:21237)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:18115
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at b.acceptChunk (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:13328)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:12676
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:114:19664
+	at afterWrite (internal/streams/writable.js:466:5)
+	at onwrite (internal/streams/writable.js:446:7)
+	at InflateRaw.afterTransform (internal/streams/transform.js:103:3)
+	at Zlib.processCallback (zlib.js:607:8)
+[2022-10-30 14:50:51.528] [exthost] [error] [ms-toolsai.jupyter] provider FAILED
+[2022-10-30 14:50:51.528] [exthost] [error] Error: Unable to retrieve document from URI 'file:///mnt/code/app.py'
+	at I.getDocument (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:70576)
+	at s.provideCodeLenses (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:88800)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:113160
+	at xe._withAdapter (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:111762)
+	at xe.$provideCodeLenses (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:113136)
+	at t._doInvokeHandler (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:13802)
+	at t._invokeHandler (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:13486)
+	at t._receiveRequest (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:12097)
+	at t._receiveOneMessage (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:10826)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:8922
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at P.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:15967)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:114:30660
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at P.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:15967)
+	at g._receiveMessage (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:21237)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:18115
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at b.acceptChunk (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:13328)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:12676
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:114:19664
+	at afterWrite (internal/streams/writable.js:466:5)
+	at onwrite (internal/streams/writable.js:446:7)
+	at InflateRaw.afterTransform (internal/streams/transform.js:103:3)
+	at Zlib.processCallback (zlib.js:607:8)
+[2022-10-30 14:50:51.528] [exthost] [error] [vscode.merge-conflict] provider FAILED
+[2022-10-30 14:50:51.528] [exthost] [error] Error: Unable to retrieve document from URI 'file:///mnt/code/app.py'
+	at I.getDocument (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:70576)
+	at s.provideCodeLenses (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:88800)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:113160
+	at xe._withAdapter (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:111762)
+	at xe.$provideCodeLenses (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:113136)
+	at t._doInvokeHandler (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:13802)
+	at t._invokeHandler (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:13486)
+	at t._receiveRequest (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:12097)
+	at t._receiveOneMessage (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:10826)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:8922
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at P.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:15967)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:114:30660
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at P.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:15967)
+	at g._receiveMessage (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:21237)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:18115
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at b.acceptChunk (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:13328)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:12676
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:114:19664
+	at afterWrite (internal/streams/writable.js:466:5)
+	at onwrite (internal/streams/writable.js:446:7)
+	at InflateRaw.afterTransform (internal/streams/transform.js:103:3)
+	at Zlib.processCallback (zlib.js:607:8)
+[2022-10-30 14:50:51.528] [exthost] [error] [ms-python.python] provider FAILED
+[2022-10-30 14:50:51.529] [exthost] [error] Error: Unable to retrieve document from URI 'file:///mnt/code/app.py'
+	at I.getDocument (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:70576)
+	at s.provideCodeLenses (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:88800)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:113160
+	at xe._withAdapter (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:111762)
+	at xe.$provideCodeLenses (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:113136)
+	at t._doInvokeHandler (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:13802)
+	at t._invokeHandler (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:13486)
+	at t._receiveRequest (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:12097)
+	at t._receiveOneMessage (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:10826)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:8922
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at P.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:15967)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:114:30660
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at P.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:15967)
+	at g._receiveMessage (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:21237)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:18115
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at b.acceptChunk (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:13328)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:12676
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:114:19664
+	at afterWrite (internal/streams/writable.js:466:5)
+	at onwrite (internal/streams/writable.js:446:7)
+	at InflateRaw.afterTransform (internal/streams/transform.js:103:3)
+	at Zlib.processCallback (zlib.js:607:8)
+[2022-10-30 14:50:51.592] [exthost] [error] [ms-python.python] provider FAILED
+[2022-10-30 14:50:51.592] [exthost] [error] Error: Unable to retrieve document from URI 'file:///mnt/code/app.py'
+	at I.getDocument (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:70576)
+	at l.provideDocumentSymbols (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:87683)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:112592
+	at xe._withAdapter (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:111762)
+	at xe.$provideDocumentSymbols (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:112568)
+	at t._doInvokeHandler (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:13802)
+	at t._invokeHandler (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:13486)
+	at t._receiveRequest (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:12097)
+	at t._receiveOneMessage (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:10826)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:99:8922
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at P.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:15967)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:114:30660
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at P.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:15967)
+	at g._receiveMessage (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:21237)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:18115
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at b.acceptChunk (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:13328)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:74:12676
+	at a.fire (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:66:1712)
+	at /usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:114:19664
+	at afterWrite (internal/streams/writable.js:466:5)
+	at onwrite (internal/streams/writable.js:446:7)
+	at InflateRaw.afterTransform (internal/streams/transform.js:103:3)
+	at Zlib.processCallback (zlib.js:607:8)

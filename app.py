@@ -59,7 +59,7 @@ with open('forms/titles-databook_Displays.json', 'r') as f:
 # ----------------------------------------------------------------
 @app.route('/')
 def index_page():
-  return flask.render_template("index.html", jsonschema=json.dumps(jsonschema), displays=json.dumps(displays))
+  return flask.render_template("index.html", jsonschema=json.dumps(jsonschema), displays=displays)
 
 # Select a display ID
 # ----------------------------------------------------------------
@@ -68,7 +68,7 @@ def display(tflid):
   schemavalue = jsonschema             # get the original (empty) form schema..
   schemavalue['value'] = displays[0]   # ..and add the current display to it
   # render the page with the schema pre-loaded with the TFLID diaplsy values
-  return flask.render_template("index.html", jsonschema=json.dumps(schemavalue), tflid=tflid, displays=json.dumps(displays))
+  return flask.render_template("index.html", jsonschema=json.dumps(schemavalue), tflid=tflid, displays=displays)
 
 
 # Sample redirect using url_for
