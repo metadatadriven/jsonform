@@ -65,8 +65,10 @@ def index_page():
 # ----------------------------------------------------------------
 @app.route('/display/<string:tflid>', methods=['GET'])
 def display(tflid):
+  # first off, get the display for this TFLID (or False if not exist)
+  this_display = next((d for d in displays if d["tflid"]==tflid), False)
   schemavalue = jsonschema             # get the original (empty) form schema..
-  schemavalue['value'] = displays[0]   # ..and add the current display to it
+  schemavalue['value'] = this_display  # ..and add this display to it
   # render the page with the schema pre-loaded with the TFLID diaplsy values
   return flask.render_template("index.html", jsonschema=json.dumps(schemavalue), tflid=tflid, displays=displays)
 
