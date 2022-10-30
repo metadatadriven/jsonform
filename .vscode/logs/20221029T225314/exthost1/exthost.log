@@ -16,3 +16,6 @@
 [2022-10-29 22:53:43.608] [exthost] [info] Eager extensions activated
 [2022-10-29 23:39:32.627] [exthost] [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onLanguage:python'
 [2022-10-29 23:58:19.143] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:typescript'
+[2022-10-30 00:28:09.162] [exthost] [info] extension host terminating: received terminate message from renderer
+[2022-10-30 00:28:09.163] [exthost] [info] Lock '/mnt/code/.vscode/User/workspaceStorage/64685498/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+[2022-10-30 00:28:09.194] [exthost] [info] Extension host with pid 377 exiting with code 0

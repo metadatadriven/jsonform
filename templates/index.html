@@ -12,39 +12,54 @@
  
 <body>
     <main role="main" class="container">
-        <h1>TFL Title and Footnote editor</h1>
-        <form></form>
-        <div id="res" class="alert"></div>
-        <script type="text/javascript" src="{{url_for('static', filename='jquery.min.js')}}"></script>
-        <script type="text/javascript" src="{{url_for('static', filename='underscore.js')}}"></script>
-        <script type="text/javascript" src="{{url_for('static', filename='opt/jsv.js')}}"></script>
-        <script type="text/javascript" src="{{url_for('static', filename='lib/jsonform.js')}}"></script>
+      <div class="row">
+        <div class="col">
+          <!-- LIST OF DISPLAY ID HERE-->
+          <ul class="list-group">
+            <li class="list-group-item active">Cras justo odio</li>
+            <li class="list-group-item">Dapibus ac facilisis in</li>
+            <li class="list-group-item">Morbi leo risus</li>
+            <li class="list-group-item">Porta ac consectetur ac</li>
+            <li class="list-group-item">Vestibulum at eros</li>
+          </ul>
+        </div>
+        <div class="col">
+          <!-- DISPLAY EDITOR HERE-->
+          <h1>TFL Title and Footnote editor</h1>
+          <form></form>
+          <div id="res" class="alert"></div>
+          <script type="text/javascript" src="{{url_for('static', filename='jquery.min.js')}}"></script>
+          <script type="text/javascript" src="{{url_for('static', filename='underscore.js')}}"></script>
+          <script type="text/javascript" src="{{url_for('static', filename='opt/jsv.js')}}"></script>
+          <script type="text/javascript" src="{{url_for('static', filename='lib/jsonform.js')}}"></script>
+      
+      <h1>Welcome!</h1>
+   
+      <script type="text/javascript">
+          $('form').jsonForm({
     
-    <h1>Welcome!</h1>
- 
-    <script type="text/javascript">
-        $('form').jsonForm({
-  
-    "schema": {
-      "displays": {
-        "type": "array",
-        "items": {
-          "type": "string",
-          "title": "TFLID",
-          "default": "XXX"
-        }
-      }
-    },
-          onSubmit: function (errors, values) {
-            if (errors) {
-              $('#res').html('<p>I beg your pardon?</p>');
-            } else {
-              $('#res').html('<p>Ok.</p>');
-            }
+      "schema": {
+        "displays": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "title": "TFLID",
+            "default": "XXX"
           }
-        });
-      </script>
-  
+        }
+      },
+            onSubmit: function (errors, values) {
+              if (errors) {
+                $('#res').html('<p>I beg your pardon?</p>');
+              } else {
+                $('#res').html('<p>Ok.</p>');
+              }
+            }
+          });
+        </script>
+        <!-- END OF DISPLAY EDITOR -->  
+        </div>
+      </div>  
     </main>
 </body>
  
