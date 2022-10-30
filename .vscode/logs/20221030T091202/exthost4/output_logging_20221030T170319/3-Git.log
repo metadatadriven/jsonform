@@ -54,3 +54,6 @@ Open repository: /mnt/code
 > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
 > git remote --verbose
 > git config --get commit.template
+> git ls-files --stage -- /mnt/code/templates/index.html
+> git cat-file -s d5e1fe754fd0f2e4b9db136dcaa0dcc69c9f2f41
+> git show --textconv :templates/index.html
