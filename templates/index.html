@@ -64,25 +64,6 @@
         });
       </script>
   
-    
-    <div id="histogram"></div>
- 
-    <script>
-        jQuery(document).ready(function() {
-            jQuery.getJSON("{{ url_for('random', n=100) }}", function(random_numbers) {
- 
-                var plotConfig = [{
-                    x: random_numbers,
-                    type: 'histogram',
-                    marker: {
-                        color: 'rgba(100,250,100,0.7)',
-                    },
-                }];
-                Plotly.newPlot('histogram', plotConfig);
- 
-            })
-        });
-    </script>
     </main>
 </body>
  
