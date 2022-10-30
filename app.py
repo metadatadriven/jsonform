@@ -87,4 +87,4 @@ def submit():
   else:
     # not already in the displays list so add to the list
     displays.append(request.form.to_dict())
-  return redirect('/display/'+request.form.tflid)
+  return redirect('/display/'+tflid)
