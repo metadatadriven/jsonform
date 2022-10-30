@@ -40,17 +40,17 @@
   <!-- MAIN BODY -->
   <main role="main" class="container-fluid">
     <div class="row">
-      <div class="col-sm-3 col-md-2 sidebar">
-        <!-- DISPLAY MENU -->
-        <ul class="nav nav-sidebar">
-          {% for display in displays %}
-          <li {% if tflid == display['tflid'] %} class="active" {% endif %} >
-            <a href="{{ url_for('display', tflid=display['tflid']) }}">{{display['tflid']}}
-              {% if tflid == display['tflid'] %} <span class="sr-only">(current)</span> {% endif %}
-            </a>
-          </li>
-          {% endfor %}
-        </ul>
+      <div class="col-sm-3 col-md-2 sidebar list-group">
+        {% for display in displays %}
+        <a href="{{ url_for('display', tflid=display['tflid']) }}" class="list-group-item list-group-item-action flex-column align-items-start active">
+          <div class="d-flex w-100 justify-content-between">
+            <h5 class="mb-1">{{display['tflid']}}</h5>
+            <small>{{display['number']}}</small>
+          </div>
+          <p class="mb-1">{{display['title1']}}</p>
+          <small>{{display['population']}}</small>
+        </a>
+        {% endfor %}
       </div>
       <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
         <!-- DISPLAY EDITOR HERE-->

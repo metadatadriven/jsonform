@@ -1,0 +1,11 @@
+        <!-- DISPLAY MENU -->
+        <ul class="nav nav-sidebar">
+            {% for display in displays %}
+            <li {% if tflid == display['tflid'] %} class="active" {% endif %} >
+              <a href="{{ url_for('display', tflid=display['tflid']) }}">{{display['tflid']}}
+                {% if tflid == display['tflid'] %} <span class="sr-only">(current)</span> {% endif %}
+              </a>
+            </li>
+            {% endfor %}
+          </ul>
+  
