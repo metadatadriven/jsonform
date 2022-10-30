@@ -77,6 +77,14 @@ def display(tflid):
 # ----------------------------------------------------------------
 @app.route('/submit', methods = ['POST'])
 def submit():
+  # find the index if the posted tflid
+  tflid = request.form['tflid']
+  idx = next((i for i, d in enumerate(displays) if d['tflid']==tflid),-1)
+  # if it already exists in the display list then just update it
+  if idx >= 0:
     # update the in-memory displays with this display
-    displays[request.form['tflid']] = request.form.to_dict()
-    return redirect('/display/'+request.form.tflid)
+    displays[idx] = request.form.to_dict()
+  else:
+    # not already in the displays list so add to the list
+    displays.append(request.form.to_dict())
+  return redirect('/display/'+request.form.tflid)
