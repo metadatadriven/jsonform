@@ -35,30 +35,6 @@
         }
       }
     },
-    "form": [
-      {
-        "type": "tabarray",
-        "items": [
-          {
-            "type": "section",
-            "legend": "{{idx}}. {{value}}",
-            "items": [
-              {
-                "key": "displays[]",
-                "valueInLegend": true
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "type": "actions",
-        "items": [{
-          "type": "submit",
-          "title": "Submit"
-        }]
-      }
-    ],
           onSubmit: function (errors, values) {
             if (errors) {
               $('#res').html('<p>I beg your pardon?</p>');
