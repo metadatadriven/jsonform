@@ -68,11 +68,11 @@
           <script type="text/javascript">
             $('#jsonform').jsonForm(
               {% if tflid is defined %}
-                {{ '{ "schema": ' }}
+                {{ '{ "schema": '|safe}}
                 {{ jsonschema['schema']|safe }}
-                {{ ', { "value": ' }}
+                {{ ', { "value": '|safe }}
                 {{ displays[0]|safe }}
-                {{ '}' }}
+                {{ '}'|safe }}
               {% else %}
                 {{jsonschema|safe}}
               {% endif %}
