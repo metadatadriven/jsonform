@@ -51,7 +51,7 @@
         <!-- DISPLAY EDITOR HERE-->
         <h1 class="page-header">TFL Title and Footnote editor</h1>
         <div class="col-xs-6 col-sm-3 placeholder">
-          <form></form>
+          <form id="jsonform"></form>
           <div id="res" class="alert"></div>
           <script type="text/javascript" src="{{url_for('static', filename='jquery.min.js')}}"></script>
           <script type="text/javascript" src="{{url_for('static', filename='underscore.js')}}"></script>
@@ -59,7 +59,7 @@
           <script type="text/javascript" src="{{url_for('static', filename='lib/jsonform.js')}}"></script>
 
           <script type="text/javascript">
-            $('form').jsonForm({
+            $('#jsonform').jsonForm({
 
               "schema": {
                 "displays": {
