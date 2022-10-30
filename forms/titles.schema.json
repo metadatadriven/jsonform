@@ -2,7 +2,7 @@
     "schema": {
         "type": "object",
         "properties": {
-          "displaytype": {
+          "type": {
             "type": "string",
             "title": "Type",
             "enum": ["Table", "Figure", "Listing"]
@@ -18,25 +18,23 @@
             "description": "Unique TFL identifier, e.g. t_dem1, f_eDISH, etc."
           },
           "population": {
-            "name": "Population",
+            "title": "Population",
             "description": "Population as defined in SAP",
             "type": "string",
             "enum": ["Safety", "Efficacy", "Intent to Treat", "All Subjects", "Other"]
           },
-          "titles": {
-            "type": "array",
-            "items": {
-              "type": "object",
-              "title": "Title",
-              "properties": {
-                "heading": {
-                  "type": "string",
-                  "title": "Heading",
-                  "required": true
-                }
-              }
-            }
-          }
+          "title1": {"type" : "string" },
+          "title2": {"type" : "string" },
+          "title3": {"type" : "string" },
+          "Footnote1": {"type" : "string" },
+          "Footnote2": {"type" : "string" },
+          "Footnote3": {"type" : "string" },
+          "Footnote4": {"type" : "string" },
+          "Footnote5": {"type" : "string" },
+          "Footnote6": {"type" : "string" },
+          "Footnote7": {"type" : "string" },
+          "Footnote8": {"type" : "string" },
+          "Footnote9": {"type" : "string" }
         }
     },
     "form": [

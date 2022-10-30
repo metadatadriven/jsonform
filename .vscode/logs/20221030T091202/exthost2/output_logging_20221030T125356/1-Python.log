@@ -1,0 +1,9 @@
+Experiment 'pythonTensorboardExperiment' is active
+> conda info --json
+> /opt/conda/bin/python ~/.local/share/code-server/extensions/ms-python.python-2021.12.1559732655/pythonFiles/interpreterInfo.py
+Python interpreter path: /opt/conda/bin/python
+> /usr/bin/python ~/.local/share/code-server/extensions/ms-python.python-2021.12.1559732655/pythonFiles/interpreterInfo.py
+> /usr/bin/python3 ~/.local/share/code-server/extensions/ms-python.python-2021.12.1559732655/pythonFiles/interpreterInfo.py
+> /usr/include/python3.6 ~/.local/share/code-server/extensions/ms-python.python-2021.12.1559732655/pythonFiles/interpreterInfo.py
+Starting Jedi language server.
+> ". /opt/conda/bin/activate && conda activate base && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python /home/ubuntu/.local/share/code-server/extensions/ms-python.python-2021.12.1559732655/pythonFiles/printEnvVariables.py"

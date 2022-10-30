@@ -43,7 +43,7 @@ with open('forms/titles.schema.json', 'r') as f:
   jsonschema = json.load(f)
 
 # init the list of displays
-with open('forms/displays.json', 'r') as f:
+with open('forms/titles-databook_Displays.json', 'r') as f:
   displays = json.load(f)
 
 # ----------------------------------------------------------------
@@ -59,13 +59,13 @@ with open('forms/displays.json', 'r') as f:
 # ----------------------------------------------------------------
 @app.route('/')
 def index_page():
-  return flask.render_template("index.html", jsonschema=jsonschema)
+  return flask.render_template("index.html", jsonschema=jsonschema, displays=displays)
 
 # Select a display ID
 # ----------------------------------------------------------------
 @app.route('/display/<string:tflid>', methods=['GET'])
 def display(tflid):
-  return flask.render_template("index.html", jsonschema=jsonschema, tflid=tflid)
+  return flask.render_template("index.html", jsonschema=jsonschema, tflid=tflid, displays=displays)
 
 
 # Sample redirect using url_for

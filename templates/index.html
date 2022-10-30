@@ -43,10 +43,12 @@
       <div class="col-sm-3 col-md-2 sidebar">
         <!-- DISPLAY MENU -->
         <ul class="nav nav-sidebar">
+          {% for display in displays %}
           <li class="active"><a href="#">Display1 <span class="sr-only">(current)</span></a></li>
-          <li><a href="#">Display2</a></li>
-          <li><a href="#">Display3</a></li>
-          <li><a href="#">Display4</a></li>
+          <li {% 'class="active"' if tflid is defined and tflid == display['tflid'] %} >
+            <a href="{{ url_for('display', tflid=display['tflid']) }}">{{display['tflid']}}</a>
+          </li>
+          {% endfor %}
         </ul>
       </div>
       <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
