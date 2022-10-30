@@ -78,5 +78,5 @@ def display(tflid):
 @app.route('/submit', methods = ['POST'])
 def submit():
     # update the in-memory displays with this display
-    displays[request.form.tflid] = request.form.to_dict()
+    displays[request.form['tflid']] = request.form.to_dict()
     return redirect('/display/'+request.form.tflid)
