@@ -65,7 +65,10 @@ def index_page():
 # ----------------------------------------------------------------
 @app.route('/display/<string:tflid>', methods=['GET'])
 def display(tflid):
-  return flask.render_template("index.html", jsonschema=jsonschema, tflid=tflid, displays=displays)
+  schemavalue = jsonschema             # get the original (empty) form schema..
+  schemavalue['value'] = displays[0]   # ..and add the current display to it
+  # render the page with the schema pre-loaded with the TFLID diaplsy values
+  return flask.render_template("index.html", jsonschema=schemavalue, tflid=tflid, displays=displays)
 
 
 # Sample redirect using url_for

@@ -66,17 +66,7 @@
           <script type="text/javascript" src="{{url_for('static', filename='lib/jsonform.js')}}"></script>
 
           <script type="text/javascript">
-            $('#jsonform').jsonForm(
-              {% if tflid is defined %}
-                {{ '{ "schema": '|safe}}
-                {{ jsonschema['schema']|safe }}
-                {{ ', { "value": '|safe }}
-                {{ displays[0]|safe }}
-                {{ '}' | safe }}
-              {% else %}
-                {{jsonschema|safe}}
-              {% endif %}
-            );
+            $('#jsonform').jsonForm( {{jsonschema|safe}} );
           </script>
 
         <!-- END OF DISPLAY EDITOR -->
