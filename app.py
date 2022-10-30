@@ -35,24 +35,39 @@ app.wsgi_app = ReverseProxied(app.wsgi_app)
 
 
 # ----------------------------------------------------------------
-# DEFINE THE FORM
+# INIT
 # ----------------------------------------------------------------
 
+# LOAD THE FORM JSON SCHEMA
 with open('forms/titles.schema.json', 'r') as f:
   jsonschema = json.load(f)
-  print("Loadsd schema:")
-  print(jsonschema)
+
+# init the list of displays
+with open('forms/displays.json', 'r') as f:
+  displays = json.load(f)
+
+# ----------------------------------------------------------------
+# ROUTES
+# ----------------------------------------------------------------
 
 # Route that returns the schema json
-@app.route('/schema')
-def schema():
-  return jsonschema
+#@app.route('/schema')
+#def schema():
+#  return jsonschema
 
 # Homepage which uses a template file
+# ----------------------------------------------------------------
 @app.route('/')
 def index_page():
   return flask.render_template("index.html", jsonschema=jsonschema)
- 
+
+# Select a display ID
+# ----------------------------------------------------------------
+@app.route('/display/<string:tflid>', methods=['GET'])
+def display(tflid):
+  return flask.render_template("index.html", jsonschema=jsonschema, tflid=tflid)
+
+
 # Sample redirect using url_for
 @app.route('/redirect_test')
 def redirect_test():
@@ -72,6 +87,7 @@ def random(n = 100):
   return json.dumps(random_numbers)
 
 # Submit changes to current display
+# ----------------------------------------------------------------
 @app.route('/submit', methods = ['POST'])
 def submit():
     # email = request.form['email']

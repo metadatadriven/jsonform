@@ -23,10 +23,27 @@
             "type": "string",
             "enum": ["Safety", "Efficacy", "Intent to Treat", "All Subjects", "Other"]
           },
-          "title1": {
-            "type": "string",
-            "name": "Title 1"
+          "titles": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "title": "Title",
+              "properties": {
+                "heading": {
+                  "type": "string",
+                  "title": "Heading",
+                  "required": true
+                }
+              }
+            }
           }
         }
-    }
+    },
+    "form": [
+      "*",
+      {
+        "type": "submit",
+        "title": "Save"
+      }
+    ]
     }
