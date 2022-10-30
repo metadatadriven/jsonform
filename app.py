@@ -32,11 +32,21 @@ class ReverseProxied(object):
  
 app = flask.Flask(__name__)
 app.wsgi_app = ReverseProxied(app.wsgi_app)
- 
+
+
+# ----------------------------------------------------------------
+# DEFINE THE FORM
+# ----------------------------------------------------------------
+
+with open('forms/titles.schema.json') as f:
+  schema = json.load(f)
+  print("Loadsd schema:")
+  print(schema)
+
 # Homepage which uses a template file
 @app.route('/')
 def index_page():
-  return flask.render_template("index.html")
+  return flask.render_template("index.html", schema=schema)
  
 # Sample redirect using url_for
 @app.route('/redirect_test')

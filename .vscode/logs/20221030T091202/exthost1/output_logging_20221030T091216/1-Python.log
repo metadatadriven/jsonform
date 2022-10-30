@@ -8,3 +8,34 @@ Python interpreter path: /opt/conda/bin/python
 Starting Jedi language server.
 > conda info --json
 > ". /opt/conda/bin/activate && conda activate base && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python /home/ubuntu/.local/share/code-server/extensions/ms-python.python-2021.12.1559732655/pythonFiles/printEnvVariables.py"
+> /opt/conda/bin/python -m autopep8 --diff /mnt/code/app.py
+cwd: /mnt/code
+> /opt/conda/bin/python -c "import autopep8"
+> conda info --json
+> ". /opt/conda/bin/activate && conda activate base && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python /home/ubuntu/.local/share/code-server/extensions/ms-python.python-2021.12.1559732655/pythonFiles/printEnvVariables.py"
+> /opt/conda/bin/python -c "import autopep8"
+
+Formatting with autopep8 failed.
+You could either install the 'autopep8' formatter, turn it off or use another formatter.
+Error: Module 'autopep8' not installed.
+> /opt/conda/bin/python -c "import pip"
+> /opt/conda/bin/python -c "import autopep8"
+> /opt/conda/bin/python -m autopep8 --diff /mnt/code/app.py
+cwd: /mnt/code
+> /opt/conda/bin/python -c "import autopep8"
+> /opt/conda/bin/python -c "import autopep8"
+
+Formatting with autopep8 failed.
+You could either install the 'autopep8' formatter, turn it off or use another formatter.
+Error: Module 'autopep8' not installed.
+[ERROR 2022-9-30 10:54:7.748]: Python Extension: promptToInstall Error: Unable to write to Folder Settings because no resource is provided.
+    at y.toConfigurationEditingError (https://sce-workshop.domino-eval.com/stuart/jsf/r/notebookSession/635e3f9207304b7e72e5877a/static/out/vs/workbench/workbench.web.api.js:1913:13057)
+    at y.validate (https://sce-workshop.domino-eval.com/stuart/jsf/r/notebookSession/635e3f9207304b7e72e5877a/static/out/vs/workbench/workbench.web.api.js:1913:16415)
+    at y.doWriteConfiguration (https://sce-workshop.domino-eval.com/stuart/jsf/r/notebookSession/635e3f9207304b7e72e5877a/static/out/vs/workbench/workbench.web.api.js:1913:9418)
+    at Object.factory (https://sce-workshop.domino-eval.com/stuart/jsf/r/notebookSession/635e3f9207304b7e72e5877a/static/out/vs/workbench/workbench.web.api.js:1913:9252)
+    at w.consume (https://sce-workshop.domino-eval.com/stuart/jsf/r/notebookSession/635e3f9207304b7e72e5877a/static/out/vs/workbench/workbench.web.api.js:77:15871)
+    at https://sce-workshop.domino-eval.com/stuart/jsf/r/notebookSession/635e3f9207304b7e72e5877a/static/out/vs/workbench/workbench.web.api.js:77:15686
+    at new Promise (<anonymous>)
+    at w.queue (https://sce-workshop.domino-eval.com/stuart/jsf/r/notebookSession/635e3f9207304b7e72e5877a/static/out/vs/workbench/workbench.web.api.js:77:15610)
+    at y.writeConfiguration (https://sce-workshop.domino-eval.com/stuart/jsf/r/notebookSession/635e3f9207304b7e72e5877a/static/out/vs/workbench/workbench.web.api.js:1913:9237)
+    at k.writeConfigurationValue (https://sce-workshop.domino-eval.com/stuart/jsf/r/notebookSession/635e3f9207304b7e72e5877a/static/out/vs/workbench/workbench.web.api.js:1913:41991)

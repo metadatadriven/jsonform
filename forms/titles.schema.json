@@ -1,0 +1,32 @@
+{
+    "schema": {
+        "type": "object",
+        "properties": {
+          "displaytype": {
+            "type": "string",
+            "title": "Type",
+            "enum": ["Table", "Figure", "Listing"]
+          },
+          "number": {
+            "type": "string",
+            "title": "Table Number",
+            "description": "e.g. 13.01.01, etc."
+          },
+          "tflid": {
+            "type": "string",
+            "title": "TFL.ID",
+            "description": "Unique TFL identifier, e.g. t_dem1, f_eDISH, etc."
+          },
+          "population": {
+            "name": "Population",
+            "description": "Population as defined in SAP",
+            "type": "string",
+            "enum": ["Safety", "Efficacy", "Intent to Treat", "All Subjects", "Other"]
+          },
+          "title1": {
+            "type": "string",
+            "name": "Title 1"
+          }
+        }
+    }
+    }
