@@ -44,7 +44,6 @@
         <!-- DISPLAY MENU -->
         <ul class="nav nav-sidebar">
           {% for display in displays %}
-          <li class="active"><a href="#">Display1 </a></li>
           <li {% if tflid == display['tflid'] %} class="active" {% endif %} >
             <a href="{{ url_for('display', tflid=display['tflid']) }}">{{display['tflid']}}
               {% if tflid == display['tflid'] %} <span class="sr-only">(current)</span> {% endif %}
@@ -67,7 +66,17 @@
           <script type="text/javascript" src="{{url_for('static', filename='lib/jsonform.js')}}"></script>
 
           <script type="text/javascript">
-                $('#jsonform').jsonForm({{jsonschema|safe}});
+            $('#jsonform').jsonForm(
+              {% if tflid is defined %}
+                {{ '{ "schema": ' }}
+                {{ jsonschema['schema']|safe }}
+                {{ ', { "value": ' }}
+                {{ display[0]|safe }}
+                {{ '}' }}
+              {% else %}
+                {{jsonschema|safe}}
+              {% endif %}
+            );
           </script>
 
         <!-- END OF DISPLAY EDITOR -->
