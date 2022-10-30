@@ -5,3 +5,10 @@ Info 12:55:05: ZMQ install verified.
 Info 12:55:06: Experiment status for python is {"enabled":true,"optInto":[],"optOutFrom":[]}
 Info 12:55:06: Process Execution: > /opt/conda/bin/python -m pip list
 > /opt/conda/bin/python -m pip list
+Info 16:54:57: Shutting down notebooks for 7e081700-bf17-4064-9996-3f6fe651e9fa
+Info 16:54:57: Disposing HostJupyterExecution 88900bb8-9ba7-4fd1-b227-d7e06ee016b4
+Info 16:54:57: Disposing super HostJupyterExecution 88900bb8-9ba7-4fd1-b227-d7e06ee016b4
+Info 16:54:57: Disposing HostJupyterExecution 88900bb8-9ba7-4fd1-b227-d7e06ee016b4
+Info 16:54:57: Finished disposing HostJupyterExecution  88900bb8-9ba7-4fd1-b227-d7e06ee016b4
+Info 16:54:57: Cleaning up server cache 88900bb8-9ba7-4fd1-b227-d7e06ee016b4
+Info 16:54:57: Finished disposing HostJupyterExecution  88900bb8-9ba7-4fd1-b227-d7e06ee016b4

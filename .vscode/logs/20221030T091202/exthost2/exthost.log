@@ -28755,3 +28755,6 @@
 	at onwrite (internal/streams/writable.js:446:7)
 	at InflateRaw.afterTransform (internal/streams/transform.js:103:3)
 	at Zlib.processCallback (zlib.js:607:8)
+[2022-10-30 16:54:57.107] [exthost] [info] extension host terminating: received terminate message from renderer
+[2022-10-30 16:54:57.108] [exthost] [info] Lock '/mnt/code/.vscode/User/workspaceStorage/64685498/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+[2022-10-30 16:54:57.141] [exthost] [info] Extension host with pid 11778 exiting with code 0
