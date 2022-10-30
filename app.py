@@ -39,9 +39,14 @@ app.wsgi_app = ReverseProxied(app.wsgi_app)
 # ----------------------------------------------------------------
 
 with open('forms/titles.schema.json') as f:
-  schema = json.load(f)
+  jsonschema = json.load(f)
   print("Loadsd schema:")
-  print(schema)
+  print(jsonschema)
+
+# Route that returns the schema json
+@app.route('/schema')
+def schema():
+  return jsonschema
 
 # Homepage which uses a template file
 @app.route('/')
