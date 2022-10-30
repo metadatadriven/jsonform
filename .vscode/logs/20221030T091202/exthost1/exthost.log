@@ -21,3 +21,4 @@
 	at /home/ubuntu/.local/share/code-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:67:257359
 	at p (/home/ubuntu/.local/share/code-server/extensions/ms-python.python-2021.12.1559732655/out/client/extension.js:67:262355)
 	at async z.provideCompletionItems (/usr/lib/code-server/vendor/modules/code-oss-dev/out/vs/server/remoteExtensionHostProcess.js:95:101392)
+[2022-10-30 10:29:38.697] [exthost] [info] ExtensionService#_doActivateExtension vscode.image-preview, startup: false, activationEvent: 'onCustomEditor:imagePreview.previewEditor'
