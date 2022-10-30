@@ -62,11 +62,7 @@
           <script type="text/javascript" src="{{url_for('static', filename='lib/jsonform.js')}}"></script>
 
           <script type="text/javascript">
-            jQuery(document).ready(function() {
-              var formschema = $.getJSON("{{ url_for('schema') }}", function(schema) {
-                $('#jsonform').jsonForm({{schema}});
-              })
-            });
+                $('#jsonform').jsonForm({{jsonschema}});
           </script>
         </div>
         <!-- END OF DISPLAY EDITOR -->
