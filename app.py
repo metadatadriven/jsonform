@@ -84,7 +84,7 @@ def submit():
     # This is a NEW DISPLAY ID so append it to list of displays
     displays.append(request.form.to_dict())
   # write displays to file (if possible)
-  METADATA_DIR = os.getenv('DOMINO_DATASETS_DIR') + '/metadata'
+  METADATA_DIR = os.getenv('DOMINO_ARTIFACTS_DIR') + '/metadata'
   if os.path.isdir(METADATA_DIR):
     with open(METADATA_DIR+'/titles.json', 'w') as f: 
       f.write(json.dumps(displays, indent=4))
