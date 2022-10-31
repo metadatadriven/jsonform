@@ -3,7 +3,8 @@ import subprocess
 # This is a sample Python/Flask app showing Domino's App publishing functionality.
 # You can publish an app by clicking on "Publish" and selecting "App" in your
 # quick-start project.
- 
+
+import os
 import json
 import flask
 from flask import request, redirect, url_for, jsonify
@@ -50,18 +51,13 @@ with open('forms/titles-databook_Displays.json', 'r') as f:
 # ROUTES
 # ----------------------------------------------------------------
 
-# Route that returns the schema json
-#@app.route('/schema')
-#def schema():
-#  return jsonschema
-
-# Homepage which uses a template file
+# Homepage 
 # ----------------------------------------------------------------
 @app.route('/')
 def index_page():
   return flask.render_template("index.html", jsonschema=json.dumps(jsonschema), displays=displays)
 
-# Select a display ID
+# Display TFLID
 # ----------------------------------------------------------------
 @app.route('/display/<string:tflid>', methods=['GET'])
 def display(tflid):
@@ -85,6 +81,11 @@ def submit():
     # update the in-memory displays with this display
     displays[idx] = request.form.to_dict()
   else:
-    # not already in the displays list so add to the list
+    # This is a NEW DISPLAY ID so append it to list of displays
     displays.append(request.form.to_dict())
+  # write displays to file (if possible)
+  METADATA_DIR = os.getenv('DOMINO_DATASETS_DIR') + '/metadata'
+  if os.path.isdir(METADATA_DIR):
+    with open(METADATA_DIR+'/titles.json', 'w') as f: 
+      f.write(json.dumps(displays, indent=4))
   return redirect(url_for('display', tflid=tflid))
